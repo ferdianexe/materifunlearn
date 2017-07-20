@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="321dp"
+            android:layout_height="77dp"
+            android:textSize="30dp"
+            android:text="Waktu dan Jam"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:id="@+id/judulwaktu"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinewaktu2"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinewaktu" />
+
+        <TextView
+            android:layout_width="306dp"
+            android:layout_height="42dp"
+            android:textSize="16dp"
+            android:text="Tujuan : Dapat membaca angka pada jam"
+            android:id="@+id/tujuanwaktu"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinewaktu"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="17dp"
+            app:layout_constraintTop_toBottomOf="@+id/judulwaktu"
+            app:layout_constraintHorizontal_bias="0.424"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinewaktu2"
+            tools:layout_editor_absoluteX="39dp" />
+        <TextView
+            android:layout_width="311dp"
+            android:layout_height="118dp"
+            android:textSize="16dp"
+            android:text="Setiap 1 jam adalah 60 menit dan 1 menit adalah 60 detik\ndalam jam dinding jarum panjang menandakan menit dan jarum pendek adalah jamnya"
+            android:id="@+id/penjelasanwaktu"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinewaktu"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="17dp"
+            app:layout_constraintTop_toBottomOf="@+id/tujuanwaktu"
+            app:layout_constraintHorizontal_bias="0.407"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinewaktu2"
+            tools:layout_editor_absoluteX="46dp"
+            tools:layout_editor_absoluteY="168dp" />
+        <TextView
+            android:layout_width="282dp"
+            android:layout_height="53dp"
+            android:textSize="16dp"
+            android:text="Pukul 5 berarti jarum panjang diangka 12 dan jarum pendek diangka 5"
+            android:id="@+id/contohjam"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinewaktu"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="19dp"
+            app:layout_constraintTop_toBottomOf="@+id/penjelasanwaktu"
+            app:layout_constraintHorizontal_bias="0.145"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinewaktu2" />
+        <TextView
+            android:layout_width="224dp"
+            android:layout_height="33dp"
+            android:textSize="16dp"
+            android:text="jawabannya adalah Pukul 2"
+            android:id="@+id/jawabcontohjam1"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinewaktu"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/gmbrjam1"
+            app:layout_constraintHorizontal_bias="0.112"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinewaktu2" />
+
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinewaktu"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04"
+            tools:layout_editor_absoluteY="81dp"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinewaktu2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96"
+            tools:layout_editor_absoluteY="81dp"
+            tools:layout_editor_absoluteX="369dp" />
+
+        <ImageView
+            android:id="@+id/gmbrjam1"
+            android:layout_width="214dp"
+            android:layout_height="109dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/cntohsoaljam1"
+
+            app:layout_constraintHorizontal_bias="0.115"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinewaktu"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinewaktu2"
+            app:layout_constraintTop_toBottomOf="@+id/contohjam" />
+
+        <Button
+            android:id="@+id/tomboljawabjam1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat Jawabannya !"
+            tools:layout_editor_absoluteY="515dp"
+            app:layout_constraintTop_toBottomOf="@+id/cntohsoaljam1"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinewaktu2"
+            android:layout_marginRight="162dp" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

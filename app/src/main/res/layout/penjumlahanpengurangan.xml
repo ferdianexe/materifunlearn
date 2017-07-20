@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <android.support.constraint.ConstraintLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     <TextView
+
+         android:layout_width="312dp"
+         android:layout_height="136dp"
+         android:text="Penjumlahan  & Pengurangan Bilangan"
+         android:gravity="center"
+         android:textSize="30dp"
+         app:layout_constraintTop_toTopOf="parent"
+         android:layout_marginTop="8dp"
+         android:layout_marginRight="8dp"
+         android:textStyle="bold"
+         android:layout_marginEnd="8dp"
+         android:id="@+id/judulkurangtambah"
+         android:layout_marginLeft="8dp"
+         app:layout_constraintLeft_toLeftOf="@id/guidelinekurangtambah"
+         app:layout_constraintRight_toLeftOf="@id/guidelinekurangtambah2"
+         tools:layout_editor_absoluteX="53dp" />
+        <TextView
+            app:layout_constraintLeft_toLeftOf="@id/guidelinekurangtambah"
+            app:layout_constraintRight_toLeftOf="@id/guidelinekurangtambah2"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:id="@+id/tujuanjumlahkurang"
+            app:layout_constraintTop_toBottomOf="@id/judulkurangtambah"
+            android:text="Tujuan : Murid bisa melakukan operasi dasar penjumlahan dan pengurangan"
+            android:layout_marginTop="36dp" />
+     <TextView
+         app:layout_constraintLeft_toLeftOf="@id/guidelinekurangtambah"
+         app:layout_constraintRight_toLeftOf="@id/guidelinekurangtambah2"
+         android:layout_width="325dp"
+         android:layout_height="50dp"
+         android:id="@+id/contohsoaljumlah1"
+         android:text="ada 2 ayam dihalaman\nsekarang datang 3 ayam\nberapa ayam yang ada di halaman ?"
+         android:textSize="15dp"
+         app:layout_constraintTop_toBottomOf="@id/tujuanjumlahkurang"
+         android:layout_marginTop="27dp" />
+
+     <TextView
+         app:layout_constraintLeft_toLeftOf="@id/guidelinekurangtambah"
+         app:layout_constraintRight_toLeftOf="@id/guidelinekurangtambah2"
+         android:layout_width="325dp"
+         android:layout_height="50dp"
+         android:id="@+id/penjelasjumlah1"
+         android:text="2 + 3 = 5"
+         android:textSize="15dp"
+         app:layout_constraintTop_toBottomOf="@id/contohsoaljumlah1"
+         android:layout_marginTop="27dp" />
+
+     <TextView
+         app:layout_constraintLeft_toLeftOf="@id/guidelinekurangtambah"
+         app:layout_constraintRight_toLeftOf="@id/guidelinekurangtambah2"
+         android:layout_width="325dp"
+         android:layout_height="50dp"
+         android:id="@+id/contohsoalkurang"
+         android:text="Balonku ada 5 meletus satu sisa ?"
+         android:textSize="15dp"
+         app:layout_constraintTop_toBottomOf="@id/penjelasjumlah1"
+         android:layout_marginTop="15dp" />
+
+     <TextView
+         app:layout_constraintLeft_toLeftOf="@id/guidelinekurangtambah"
+         app:layout_constraintRight_toLeftOf="@id/guidelinekurangtambah2"
+         android:layout_width="325dp"
+         android:layout_height="50dp"
+         android:id="@+id/penjelassoalkurang"
+         android:text="5-1 = 4"
+         android:textSize="15dp"
+         app:layout_constraintTop_toBottomOf="@id/contohsoalkurang"
+         android:layout_marginTop="11dp" />
+     <TextView
+         app:layout_constraintLeft_toLeftOf="@id/guidelinekurangtambah"
+         app:layout_constraintRight_toLeftOf="@id/guidelinekurangtambah2"
+         android:layout_width="325dp"
+         android:layout_height="50dp"
+         android:id="@+id/contohsoalgabungplmn"
+         android:text="Balonku ada 5 lalu balonku lepas 1 lalu ibuku membeli 3 lagi jadi punyaku ?"
+         android:textSize="15dp"
+         app:layout_constraintTop_toBottomOf="@id/penjelassoalkurang"
+         android:layout_marginTop="15dp" />
+     <TextView
+         app:layout_constraintLeft_toLeftOf="@id/guidelinekurangtambah"
+         app:layout_constraintRight_toLeftOf="@id/guidelinekurangtambah2"
+         android:layout_width="325dp"
+         android:layout_height="50dp"
+         android:id="@+id/penjelasgabungplmn"
+         android:text="5 - 1 + 3 = 7\nUntuk penjumlahan dan pengurangan yang pertama muncul dikerjakan"
+         android:textSize="15dp"
+         app:layout_constraintTop_toBottomOf="@id/contohsoalgabungplmn"
+         android:layout_marginTop="15dp" />
+
+     <android.support.constraint.Guideline
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/guidelinekurangtambah"
+         android:orientation="vertical"
+         app:layout_constraintGuide_percent="0.04" />
+
+     <android.support.constraint.Guideline
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/guidelinekurangtambah2"
+         android:orientation="vertical"
+         app:layout_constraintGuide_percent="0.96" />
+
+
+
+ </android.support.constraint.ConstraintLayout>
+</ScrollView>
