@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinejumlahkurangmahir"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinejumlahkurangmahir2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:text="Perhitungan Dua Angka"
+            android:textSize="20dp"
+            android:id="@+id/mahirjumlahkurangjudul"
+            android:gravity="center"
+            android:textStyle="bold"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinejumlahkurangmahir2"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinejumlahkurangmahir" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/tujuanjumlahkurangmahir"
+            android:text="Tujuan : Membuat murid dapat berhitung akan yang lebih besar"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinejumlahkurangmahir2"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinejumlahkurangmahir"
+            app:layout_constraintTop_toBottomOf="@id/mahirjumlahkurangjudul"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/penjelasanjumlahkurangmahir1"
+            android:text="ada dua cara menjumlahkan atau mengurangkan yaitu dengan cara bersusun dimana masing masing harus mengurangkan dengan sesama nilainya"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinejumlahkurangmahir2"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinejumlahkurangmahir"
+            app:layout_constraintTop_toBottomOf="@id/tujuanjumlahkurangmahir"
+/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/penjelasanjumlahkurangmahir2"
+            android:text="sebagai contoh 29 berarti 2 adalah puluhan dan 9 adalah satuan , penjumlahan harus menjulamkah sesama puluhan dengan puluhan , satuan dengan satuan"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinejumlahkurangmahir2"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinejumlahkurangmahir"
+            app:layout_constraintTop_toBottomOf="@id/penjelasanjumlahkurangmahir1"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/penjelasanjumlahkurangmahir3"
+            android:text="sebagai contoh 23 + 9 dan dan 15 + 23"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinejumlahkurangmahir2"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinejumlahkurangmahir"
+            app:layout_constraintTop_toBottomOf="@id/penjelasanjumlahkurangmahir2"
+            />
+        <ImageView
+            android:layout_width="87dp"
+            android:layout_height="49dp"
+            android:id="@+id/gambarmahirjumkur1"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinejumlahkurangmahir2"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinejumlahkurangmahir"
+            app:layout_constraintTop_toBottomOf="@id/penjelasanjumlahkurangmahir3"
+            android:src="@drawable/jumkurmahir1"
+            android:layout_marginTop="-1dp"
+            app:layout_constraintHorizontal_bias="0.097" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
