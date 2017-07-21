@@ -12,7 +12,7 @@
 
          android:layout_width="312dp"
          android:layout_height="136dp"
-         android:text="Penjumlahan  & Pengurangan Bilangan"
+         android:text="Penjumlahan  &amp; Pengurangan Bilangan"
          android:gravity="center"
          android:textSize="30dp"
          app:layout_constraintTop_toTopOf="parent"
