@@ -16,11 +16,13 @@
         android:text="Perbandingan"
         android:textStyle="bold"
         android:textSize="30dp"
-        tools:layout_editor_absoluteY="4dp"
         android:layout_marginRight="8dp"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="@+id/guidelinebanding"
-        app:layout_constraintRight_toLeftOf="@+id/guidelinebanding2" />
+        app:layout_constraintRight_toLeftOf="@+id/guidelinebanding2"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.494" />
 
     <android.support.constraint.Guideline
         android:layout_width="wrap_content"

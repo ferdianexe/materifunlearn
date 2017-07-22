@@ -1,9 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-   
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/MASUKANJUDUL"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="MASUKAN JUDUL"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingNAMAJUDUL"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingNAMAJUDUL2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
 
-</android.support.constraint.ConstraintLayout>
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingNAMAJUDUL"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingNAMAJUDUL2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/TEXTVIEW"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingNAMAJUDUL"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingNAMAJUDUL2"
+            app:layout_constraintTop_toBottomOf="@id/MASUKANJUDUL"
+            android:text=" ISINYA "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+        <ImageView
+            android:layout_width="238dp"
+            android:layout_height="231dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingNAMAJUDUL"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingNAMAJUDUL2"
+            app:layout_constraintTop_toBottomOf="@id/TEXTVIEW"
+            android:src="@drawable/jumkur4"
+            app:layout_constraintHorizontal_bias="0.591"
+            android:id="@+id/imageView2"
+            android:layout_marginTop="15dp" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
