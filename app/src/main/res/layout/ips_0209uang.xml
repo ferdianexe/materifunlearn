@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/uangjdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Uang"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandinguang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandinguang2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandinguang"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandinguang2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="298dp"
+            android:layout_height="71dp"
+            android:id="@+id/apaituuang"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandinguang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandinguang2"
+            app:layout_constraintTop_toBottomOf="@id/uangjdl"
+            android:text=" Uang adalah nilai tukar yang sah , setiap benda memiliki harga saat dijual , dengan uanglah kita bisa membelinya "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+        <ImageView
+            android:layout_width="141dp"
+            android:layout_height="94dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandinguang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandinguang2"
+            app:layout_constraintTop_toBottomOf="@id/apaituuang"
+            android:src="@drawable/uang"
+            app:layout_constraintHorizontal_bias="0.174"
+            android:id="@+id/uangimage"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="71dp"
+            android:id="@+id/fungsiuang"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandinguang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandinguang2"
+            app:layout_constraintTop_toBottomOf="@id/uangimage"
+            android:text="Uang memiliki fungsi sebagai : Menunjukan Harga barang ,Untuk Simpanan, Mendirikan Usaha"
+            android:layout_marginTop="14dp"
+            app:layout_constraintHorizontal_bias="0.49"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="282dp"
+            android:layout_height="60dp"
+            android:id="@+id/fungsiuanghrgbrng"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandinguang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandinguang2"
+            app:layout_constraintTop_toBottomOf="@id/fungsiuang"
+            android:text="Uang menunjukan harga barang misalkan buku A : Rp500,00 , tas merk B : Rp200.000,00"
+            android:layout_marginTop="9dp"
+            app:layout_constraintHorizontal_bias="0.428"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="299dp"
+            android:layout_height="55dp"
+            android:id="@+id/fungsiuangsimpan"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandinguang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandinguang2"
+            app:layout_constraintTop_toBottomOf="@id/fungsiuanghrgbrng"
+            android:text="Misalkan ada sisa uang yang lebih , maka kita bisa simpan untuk masa depan jika perlu , maka uang menjadi uang sebagai simpanan"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.586"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="5dp"
+            android:id="@+id/fungsiuangusaha"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandinguang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandinguang2"
+            app:layout_constraintTop_toBottomOf="@id/fungsiuangsimpan"
+            android:text="Misalkan kamu memiliki usaha , untuk memulainya kamu memerlukan uang , misalnya membuka kantin disekolah ini"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp"
+            tools:layout_editor_absoluteY="541dp"
+            tools:layout_editor_absoluteX="41dp" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

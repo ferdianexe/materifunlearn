@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/gunaenergijdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Kegunaan Energi"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingeguna"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingeguna2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingeguna"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingeguna2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+        android:layout_width="287dp"
+        android:layout_height="63dp"
+        android:id="@+id/energiguna"
+        app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingeguna"
+        app:layout_constraintRight_toLeftOf="@+id/guidelinebandingeguna2"
+        app:layout_constraintTop_toBottomOf="@id/gunaenergijdl"
+        android:text=" Kegunaan energi macam macam yang pasti untuk memudahkan manusia "
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.571"
+        android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="139dp"
+            android:id="@+id/energigunapanas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingeguna"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingeguna2"
+            app:layout_constraintTop_toBottomOf="@id/energiguna"
+            android:text=" Manfaat energi panas :
+a. Mengeringkan jemuran pakaian (matahari)
+b. Menghangatkan ruangan (matahari)
+c. Mengeringkan ikan, kerupuk, padi dan kopi (matahari)
+d. Pembangkit tenaga listrik (matahari)
+e. Menghaluskan pakaian (setrika listrik)
+f. Memasak (kompor) "
+            android:layout_marginTop="9dp"
+            app:layout_constraintHorizontal_bias="0.577"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="284dp"
+            android:layout_height="60dp"
+            android:id="@+id/energigunacahya"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingeguna"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingeguna2"
+            app:layout_constraintTop_toBottomOf="@id/energigunapanas"
+            android:text=" Manfaat energi cahaya :
+a. Penerangan
+b. Fotosintesis (matahari) "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.426"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/energigunagerak"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingeguna"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingeguna2"
+            app:layout_constraintTop_toBottomOf="@id/energigunacahya"
+            android:text=" Energi gerak adalah energi yang dimiliki oleh benda yang bergerak
+Energi gerak disebut juga energi kinetik.
+Energi gerak dapat dihasilkan oleh air mengalir, angin, orang berlari, listrik
+Contoh alat yang menghasilkan energi gerak adalah : bor listrik, kipas angin, blender"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/energigunalistrik"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingeguna"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingeguna2"
+            app:layout_constraintTop_toBottomOf="@id/energigunagerak"
+            android:text=" Energi listrik adalah energi yang timbul karena adanya arus listrik yang mengalir melalui penghatar.
+Energi listrik sangat penting dalam kehidupan sehari-hari Dipersembahkan oleh:
+Energi listrik digunakan untuk menyalakan lampu, TV, komputer, radio, kulkas dll
+Sumber listrik adalah alat yang dapat menghasilkan energi listrik
+Contoh sumber listrik adalah listrik, baterai, generator"
+            android:layout_marginTop="-2dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/energigunabunyi"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingeguna"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingeguna2"
+            app:layout_constraintTop_toBottomOf="@id/energigunalistrik"
+            android:text="Energi bunyi adalah energi yang ditimbulkan oleh benda yang menghasilkan bunyi
+Energi bunyi dapat diketahui melalui telinga kita
+Bunyi dihasilkan dari benda yang bergetar
+Tinggi rendahnya bunyi dipengaruhi oleh cepat lambatnya benda bergetar
+Makin cepat dan kuat benda bergetar maka bunyi semakin tinggi/keras
+Makin lambat dan lemah benda bergetar, maka bunyi semakin lemah
+Contoh benda yang dapat menghasilkan bunyi adalah terompet, gendang, gitar dll"
+            android:layout_marginTop="26dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/energigunakimia"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingeguna"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingeguna2"
+            app:layout_constraintTop_toBottomOf="@id/energigunabunyi"
+            android:text="Energi kimia adalah energi yang dikeluarkan dari reaksi kimia.
+            Energi kimia banyak terdapat pada bahan makanan dan bahan bakar
+            Contoh energi kimia adalah bensin, solar, minyak tanah, batu bara, kayu bakar
+        "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

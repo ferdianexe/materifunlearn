@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/kelilingluasjdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Keliling dan Luas"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingkelilingluas"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingkelilingluas2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingkelilingluas"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingkelilingluas2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="154dp"
+            android:layout_height="82dp"
+            android:id="@+id/kelilingdulu"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingkelilingluas"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingkelilingluas2"
+            app:layout_constraintTop_toBottomOf="@id/kelilingluasjdl"
+            android:text=" Keliling "
+            android:layout_marginTop="19dp"
+            app:layout_constraintHorizontal_bias="0.146"
+            android:layout_marginRight="8dp" />
+        <ImageView
+        android:layout_width="146dp"
+        android:layout_height="137dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingkelilingluas"
+        app:layout_constraintRight_toLeftOf="@+id/guidelinebandingkelilingluas2"
+        app:layout_constraintTop_toBottomOf="@id/kelilingdulu"
+        android:src="@drawable/kelpersegi"
+        app:layout_constraintHorizontal_bias="0.135"
+        android:id="@+id/kelpersegi"
+        android:layout_marginTop="19dp" />
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="127dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingkelilingluas"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingkelilingluas2"
+
+            android:src="@drawable/kelperpan"
+            app:layout_constraintHorizontal_bias="0.892"
+            android:id="@+id/kelperspan"
+            android:layout_marginTop="19dp"
+            app:layout_constraintTop_toBottomOf="@+id/kelilingdulu" />
+        <ImageView
+            android:layout_width="288dp"
+            android:layout_height="89dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingkelilingluas"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingkelilingluas2"
+            app:layout_constraintTop_toBottomOf="@id/kelpersegi"
+            android:src="@drawable/kelsegi3"
+            app:layout_constraintHorizontal_bias="0.43"
+            android:id="@+id/kelsegi3"
+            android:layout_marginTop="3dp" />
+        <TextView
+            android:layout_width="142dp"
+            android:layout_height="24dp"
+            android:id="@+id/luasdulu"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingkelilingluas"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingkelilingluas2"
+            app:layout_constraintTop_toBottomOf="@id/kelsegi3"
+            android:text=" Luas "
+            android:layout_marginTop="19dp"
+            app:layout_constraintHorizontal_bias="0.146"
+            android:layout_marginRight="8dp"
+            tools:layout_editor_absoluteY="491dp" />
+        <ImageView
+            android:layout_width="165dp"
+            android:layout_height="100dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingkelilingluas"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingkelilingluas2"
+            app:layout_constraintTop_toBottomOf="@id/luasdulu"
+            android:src="@drawable/luaspersegi"
+            app:layout_constraintHorizontal_bias="0.148"
+            android:id="@+id/luassq"
+            android:layout_marginTop="0dp" />
+        <ImageView
+            android:layout_width="288dp"
+            android:layout_height="89dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingkelilingluas"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingkelilingluas2"
+            app:layout_constraintTop_toBottomOf="@id/luasdulu"
+            android:src="@drawable/luassegipanjang"
+            app:layout_constraintHorizontal_bias="0.492"
+            android:id="@+id/luassegi3"
+            android:layout_marginTop="116dp" />
+        <ImageView
+            android:layout_width="134dp"
+            android:layout_height="113dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingkelilingluas"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingkelilingluas2"
+            app:layout_constraintTop_toBottomOf="@id/luasdulu"
+            android:src="@drawable/luassegi3"
+            app:layout_constraintHorizontal_bias="0.919"
+            android:id="@+id/luaspj"
+            android:layout_marginTop="-10dp" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
