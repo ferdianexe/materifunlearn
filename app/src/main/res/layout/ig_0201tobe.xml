@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tobejdul"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="To Be"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingtobe"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingtobe2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingtobe"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingtobe2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="236dp"
+            android:layout_height="41dp"
+            android:id="@+id/ToBeJelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingtobe"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingtobe2"
+            app:layout_constraintTop_toBottomOf="@id/tobejdul"
+            android:text=" Ada 3 To Be : yaitu is , Am , Are "
+            android:layout_marginTop="5dp"
+            app:layout_constraintHorizontal_bias="0.256"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="294dp"
+            android:layout_height="72dp"
+            android:id="@+id/ToBeis"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingtobe"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingtobe2"
+            app:layout_constraintTop_toBottomOf="@id/ToBeJelas"
+            android:text="IS: penggunaan Is ini hanya dapat terpakai untuk orang ketiga tunggal seperti misalnya He (Dia laki-laki), She (Dia Perempuan) dan It (Kata Benda)"
+            android:layout_marginTop="11dp"
+            app:layout_constraintHorizontal_bias="0.568"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="294dp"
+            android:layout_height="72dp"
+            android:id="@+id/ToBeAm"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingtobe"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingtobe2"
+            app:layout_constraintTop_toBottomOf="@id/ToBeis"
+            android:text="AM: Am ini hanya bisa digunakan untuk subject yang mengacu pada orang pertama tunggal yang mana hanya ada satu saja yaitu adalah I (Saya)"
+            android:layout_marginTop="11dp"
+            app:layout_constraintHorizontal_bias="0.568"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="294dp"
+            android:layout_height="72dp"
+            android:id="@+id/ToBeAre"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingtobe"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingtobe2"
+            app:layout_constraintTop_toBottomOf="@id/ToBeAm"
+            android:text="Are: penggunaan Are biasa subjek sebagai kata You (Kamu). Sedangkan untuk sudut pandang berbentuk jamak, kita biasa mengenal subjek sebagai kata We (Kita) dan They (Mereka)"
+            android:layout_marginTop="11dp"
+            app:layout_constraintHorizontal_bias="0.568"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

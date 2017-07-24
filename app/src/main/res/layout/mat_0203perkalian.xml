@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/perkalianjudl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Perkalian"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingperkalian"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingperkalian2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingperkalian"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingperkalian2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="283dp"
+            android:layout_height="71dp"
+            android:id="@+id/perkalianjelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingperkalian"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingperkalian2"
+            app:layout_constraintTop_toBottomOf="@id/perkalianjudl"
+            android:text=" Perkalian adalah proses penjumlahan yang dilakukan berkali kali "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="276dp"
+            android:layout_height="65dp"
+            android:id="@+id/contohperkalian"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingperkalian"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingperkalian2"
+            app:layout_constraintTop_toBottomOf="@id/perkalianjelas"
+            android:text=" 4 x 3 adalah 4 + 4 + 4 atau 4 ditambah 4 sebanyak 3 kali atau 3 + 3 + 3 +3 yang berarti 3 ditambah 3 sebanyak 3 kali yang bernilai 12 "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp"
+            tools:layout_editor_absoluteX="64dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

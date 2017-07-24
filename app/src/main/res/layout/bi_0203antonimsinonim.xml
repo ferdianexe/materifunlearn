@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/AntonimSinom"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Antonim dan Sinonim"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingAntonimSinom"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingAntonimSinom2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingAntonimSinom"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingAntonimSinom2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/LawanKata"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingAntonimSinom"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingAntonimSinom2"
+            app:layout_constraintTop_toBottomOf="@id/AntonimSinom"
+            android:text=" Tujuan : Siswa mengetahui arti dari antonim sinonim dengan contohnya "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/Antonim"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingAntonimSinom"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingAntonimSinom2"
+            app:layout_constraintTop_toBottomOf="@id/LawanKata"
+            android:text=" Antonim adalah lawan kata \nContoh Antonim dari \nMalas adalah Rajin\nBesar Adalah Kecil  "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/Sinonim"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingAntonimSinom"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingAntonimSinom2"
+            app:layout_constraintTop_toBottomOf="@id/Antonim"
+            android:text=" Sinonim adalah kawan kata \nContoh Sinonim dari \Senang adalah Gembira\Bertambah Adalah Meningkat  "
+            android:layout_marginTop="17dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

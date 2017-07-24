@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/interaksijudul"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Interaksi"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandinginteraksi"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandinginteraksi2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandinginteraksi"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandinginteraksi2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="278dp"
+            android:layout_height="68dp"
+            android:id="@+id/Interaksijelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandinginteraksi"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandinginteraksi2"
+            app:layout_constraintTop_toBottomOf="@id/interaksijudul"
+            android:text=" Manusia adalah mahluk sosial yang berarti tak bisa hidup tanpa manusia lain, maka kita perlu interaksi "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.283"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="282dp"
+            android:layout_height="75dp"
+            android:id="@+id/Interaksijelas2"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandinginteraksi"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandinginteraksi2"
+            app:layout_constraintTop_toBottomOf="@id/Interaksijelas"
+            android:text="Contoh dari interaksi adalah Jual Beli , Berbicara , mengajar , bermain , berdikusi semuanya adalah interaksi manusia "
+            android:layout_marginTop="0dp"
+            app:layout_constraintHorizontal_bias="0.301"
+            android:layout_marginRight="8dp" />
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
