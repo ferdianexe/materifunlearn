@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tubuhjdul"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Tubuh"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingtubuh"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingtubuh2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingtubuh"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingtubuh2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/tujuantubuh"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingtubuh"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingtubuh2"
+            app:layout_constraintTop_toBottomOf="@id/tubuhjdul"
+            android:text=" Tujuan : Siswa mengetahui fungsi dari tubuhnya masing - masing "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+        <ImageView
+            android:layout_width="142dp"
+            android:layout_height="212dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingtubuh"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingtubuh2"
+            app:layout_constraintTop_toBottomOf="@id/tujuantubuh"
+            android:src="@drawable/tubuh"
+            app:layout_constraintHorizontal_bias="0.132"
+            android:id="@+id/tubuhgambar"
+            android:layout_marginTop="-1dp" />
+
+        <TextView
+            android:id="@+id/fungsitubuh"
+            android:layout_width="169dp"
+            android:layout_height="204dp"
+            android:text="Mata : Melihat\nTelinga : Mendengar\nTangan : Memegang\nHidung:Mencium Bau\nMulut:Makan\nLidah:Mengecap rasa dan berbicara\n Kaki:Berjalan"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingtubuh2"
+            android:layout_marginRight="0dp"
+            app:layout_constraintLeft_toRightOf="@+id/tubuhgambar"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.833"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/tujuantubuh" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

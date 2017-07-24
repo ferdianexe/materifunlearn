@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/kasihjdul"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Kasih"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingkasih"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingkasih2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingkasih"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingkasih2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="55dp"
+            android:id="@+id/kasihtujuan"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingkasih"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingkasih2"
+            app:layout_constraintTop_toBottomOf="@id/kasihjdul"
+            android:text=" Tujuan : Mengetahui kasih dari orang tua dan keluarga "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp"
+            tools:layout_editor_absoluteX="44dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/kasihpenjelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingkasih"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingkasih2"
+            app:layout_constraintTop_toBottomOf="@id/kasihtujuan"
+            android:text="Orang tua mengasi anaknya buktinya adalah mereka memberi tempat tinggal dan menjaganya,kita harus menerapkan kasih itu dikeluarga atau disekolah,disekolah kasihilah guru dan teman temanmu "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

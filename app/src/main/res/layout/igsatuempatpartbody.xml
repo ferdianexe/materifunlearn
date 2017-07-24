@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/bodypartjudul"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Part of My Body"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingbodypart"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingbodypart2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingbodypart"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingbodypart2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/bodyparttujuan"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingbodypart"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingbodypart2"
+            app:layout_constraintTop_toBottomOf="@id/bodypartjudul"
+            android:text=" Tujuan : Siswa bisa mengatahui bagian bagian tubuhnya dalam bahasa inggris dengan fungsinya "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+        <ImageView
+            android:layout_width="238dp"
+            android:layout_height="231dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingbodypart"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingbodypart2"
+            app:layout_constraintTop_toBottomOf="@id/bodyparttujuan"
+            android:src="@drawable/mybooody"
+            app:layout_constraintHorizontal_bias="0.391"
+            android:id="@+id/imagebody"
+            android:layout_marginTop="-12dp" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
