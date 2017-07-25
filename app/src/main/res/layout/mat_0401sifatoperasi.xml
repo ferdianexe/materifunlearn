@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/sifatoperasijudl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Sifat Operasi"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatoperasi"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatoperasi2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingsifatoperasi"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingsifatoperasi2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="51dp"
+            android:id="@+id/sifatoperasiada"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatoperasi"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatoperasi2"
+            app:layout_constraintTop_toBottomOf="@id/sifatoperasijudl"
+            android:text=" Sifat - Sifat operasi dalam matematika adalah Asosiatif , Distributif dan Komutatif "
+            android:layout_marginTop="22dp"
+            app:layout_constraintHorizontal_bias="0.355"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="106dp"
+            android:id="@+id/sifatoperasikomutatif"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatoperasi"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatoperasi2"
+            app:layout_constraintTop_toBottomOf="@id/sifatoperasiada"
+            android:text="Komutatif\nartinya kita bisa menukar angka dan jawabannya tetap sama untuk penjumlahan, atau perkalian.
+
+a + b  =  b + a
+a × b  =  b × a "
+            android:layout_marginTop="10dp"
+            app:layout_constraintHorizontal_bias="0.64"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="325dp"
+            android:layout_height="199dp"
+            android:id="@+id/sifatoperasiasosiatif"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatoperasi"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatoperasi2"
+            app:layout_constraintTop_toBottomOf="@id/sifatoperasikomutatif"
+            android:text="Asosiatif\nkita bisa saja mengelompokkan operasi bilangan dengan urutan berbeda (mis. mana yang akan kita hitung pertama kali) untuk :
+
+(a + b) + c  =  a + (b + c)
+penjumlahan
+
+atau untuk perkalian:
+
+(a × b) × c  =  a × (b × c)"
+            android:layout_marginTop="9dp"
+            app:layout_constraintHorizontal_bias="1.0"
+            android:layout_marginRight="8dp"
+            tools:layout_editor_absoluteX="36dp" />
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="106dp"
+            android:id="@+id/sifatoperasidistributif"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatoperasi"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatoperasi2"
+            app:layout_constraintTop_toBottomOf="@id/sifatoperasiasosiatif"
+            android:text="Distributif\nartinya kita bisa menjabarkan suatu persamaan ke bentuk yang lain.
+
+(a + b) × c  =  a × c  +  b × c"
+            android:layout_marginTop="9dp"
+            app:layout_constraintHorizontal_bias="1.0"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

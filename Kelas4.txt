@@ -1,0 +1,56 @@
+BI kelas 4
+1.Ide Pokok Paragraf
+2.Menulis Surat Pribadi
+3.Ide Pokok teks panjang
+4.Menulis Petunjuk
+5.Simbol Lambang / Gambar
+6.Membuat Denah
+7.Kalimat Utama Paragraf
+8.Pengumuman dan Pantun
+9.Membaca pengumuman
+10.Pantun dan Penjelasannya
+
+Inggris Kelas 4
+1.Mendengarkan dan lakukan
+2.Berbicara
+3.Membaca benda benda
+4.Menulis benda dan warna
+5.Mendengarkan
+6.Berbicara
+7.Membaca
+8.Menulis
+
+Matematika Kelas 4
+1.Sifat Operasi
+2.Faktor dan Kelipatan
+3.FPB dan KPK
+4.Keliling dan Luas bangun datar
+5.Penjumlahan Pengurangan Bilangan Bulat
+6.Pecahan dan Soal Cerita
+7.Lambang Romawi
+8.Geometri
+IPA kelas 4
+1.Organ Manusia
+2.Struktur bagian tumbuhan
+3.Hewan dengan makanannnya
+4.Daur hidup jenis makluk hidup
+5.Hubungan sesama makluk hidup
+6.Perubahan Wujud Benda
+7.Gaya dan Gerak
+8.Energi
+9.Bumi dan Langit berserta isinya diciptakan Tuhan
+10.Perubahan Fisik Lingkungan
+
+IPS kelas 4
+1.Peta
+2.Kenampakan Alam dilingkungan Sekitar
+3.SDA dan Kegiatan Ekonomi
+4.Keanekaragaman Suku Dan Budaya Setempat
+5.Peninggalan Sejarah di Lingkungan
+6.Sikap Pahlawan dan Patriotisme
+7.Kegiatan Ekonomi berdasarkan Potensi Daerah
+8.Koperasi dan Ekonomi Indonesia
+9.Perkembangan Teknologi
+10.Masalah Sosial di Lingkungan Setempat
+
+

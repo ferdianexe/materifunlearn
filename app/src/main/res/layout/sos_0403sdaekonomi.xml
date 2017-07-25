@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/ekonomijudl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Sumber Daya Alam"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingekonomijudl"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingekonomijudl2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingekonomijudl"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingekonomijudl2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="323dp"
+            android:layout_height="698dp"
+            android:id="@+id/ekonomijelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingekonomijudl"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingekonomijudl2"
+            app:layout_constraintTop_toBottomOf="@id/ekonomijudl"
+            android:text=" Sumber daya alam merupakan kekayaan alam di suatu tempat yang dpat digunakan untuk memenuhi kebutuhan manusia
+Sumber daya alam dibagi menjadi dua,yaitu sumber daya alam yang dapat diperbeharaui dan sumber daya alam yang tidak dapat diperbaharui
+SDA yang dapat diperbarui yaitu SDA yang dapat dihasilkan kembali setelah digunakan,misalnya ai tanah dan udara
+SDA yang tidak dapat diperbaharui yaitu sumber daya alam yang tidak dapat k kita hasilkan kembali setelah kita menggunakannya , misalnya logam m batu batuan
+Bentuk Bentuk kegiatan Ekonomi dalam memanfaatkan sumber daya alam antara lain pertania,perkebungan ,perikanan,peternakan,kerjaninan,perdagangan,perindustrian,jasa,pertambangan
+Bentuk alam beserta SDA memengaruhi pekerjaan ekonomi masyarakat, misalkan Indonesia karena negara maritim yang banyak laut maka , pekerjaannya adalah sebagai nelayan, juga karena negara agraris maka sebagian juga sebagai petani
+SDA harus dijaga dengan baik karena itu adalah berkat dari Tuhan "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.642"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

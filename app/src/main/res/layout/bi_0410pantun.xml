@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/pantunjudul"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Pantun dan Penjelasannya"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingpantun"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingpantun2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingpantun"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingpantun2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/penjelaspantun"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingpantun"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingpantun2"
+            app:layout_constraintTop_toBottomOf="@id/pantunjudul"
+            android:text=" Pantun adalah puisi lama nusantara yang terdiri dari 4 baris.\nPantun memiliki irama akhir a-b-a-b dan terdiri dari sampiran dan isi\nSetiap baris terdiri dari 8 - 12 suku kata "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/contohpantun"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingpantun"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingpantun2"
+            app:layout_constraintTop_toBottomOf="@id/penjelaspantun"
+            android:text=" sungguh elok emas permata
+lagi elok intan baiduri
+sungguh elok budi bahasa
+jika dihias akhlaq terpuji"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="157dp"
+            android:id="@+id/jelaspantun"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingpantun"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingpantun2"
+            app:layout_constraintTop_toBottomOf="@id/contohpantun"
+            android:text="Maksud dari puisi diatas adalah bahasa dengan sikap yang baik adalah perbuatan yang baik,pantun diatas adalah pantun nasihat.\nMacam macam pantun jika dilihat dari isinya (2 baris terbawah) adalah Pantun Nasihat , Pantun Jenaka, Pantun Teka-Teki, Pantun Kiasan"
+            android:layout_marginTop="17dp"
+            app:layout_constraintHorizontal_bias="0.6"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

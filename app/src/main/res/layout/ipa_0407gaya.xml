@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/gayajudul"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Gaya"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandinggayajudul"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandinggayajudul2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandinggayajudul"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandinggayajudul2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="317dp"
+            android:layout_height="976dp"
+            android:id="@+id/gayajelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandinggayajudul"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandinggayajudul2"
+            app:layout_constraintTop_toBottomOf="@id/gayajudul"
+            android:text=" Gerakan mendorong atau menarik yang menyebabkan benda bergerak disebut gaya.
+Jenis gaya :
+1.Gaya Magnet
+Gaya magnet adalah gaya yang dihasilkan oleh magnet. Magnet alam adalah sejenis logam yang pertama kali ditemukan di kota magnesia. Magnet memiliki kekuatan yang menarik jarum, paku, atau benda lainnya terbuat dari besi atau baja. Kekuatan ini disebut gaya magnet.
+2.Gaya Listrik Statis
+Gaya listrik statis adalah kekuatan yang dimiliki benda yang bermuatan listrik untuk menarik benda-benda disekitarnya. Kita dapat melakukan percobaan untuk membuktikan adanya gaya listrik statis. Coba kalian gosok-gosokkan penggaris plastik pada rambut kalian. Siapkan juga kertas yang disobek-sobek halus. Setelah digosokkan berulang kali pada rambut , dekatkan penggaris pada potongan-potongan kertas. KAlian akan melihat potongan tertas tertarik ke arah penggaris. Penggaris bisa menarik potongan kertas dengan gaya listrik statis.
+3.Gaya Otot
+Kekuatan yang dihasilkan oleh otot manusia disebut gaya otot . Gaya ini sering dilakukan pada saat kita mengangkat beban atau sedang senam di sekolah. Apabila kita sering melakukan olahraga maka otomu akan bertambah besar dan kuat.
+4.Gaya Gravitasi
+Gaya grafitasi adalah kekuatan bumi untuk menarik benda lain ke bawah. Bila kita melempar benda ke atas, baik dari kertas, pensil atau benda lain maka semua benda itu akan jatuh ke bawah. Berbeda bila di luar angkasa para astronot tidak merasakan gaya gravitasi, akibatnya mereka akan melayang-layang bila berada di luar angkasa.
+5.Gaya Pegas
+Kekuatan yang ditimbulkan oleh karet atau pegas yang diregangkan. Misalnya saat kamu bermain panahan, karet mampu mendorong anak panah terlontar  dengan cepat dan jauh.
+6.Gaya Gesek
+Bila kedua benda saling bergesekkan, maka antara keduanya akan muncul gaya gesek. Gaya gesek bisa menguntungkan dan merugikan. Bila kita berjalan di jalan yang kering, antara sepatu dan jalan akan muncul gaya gesek. Gaya gesek ini membantu kita untuk bisa berjalan. Bayangkan bila jalanan licin, maka gaya geseknya akan kecil dan kita akan kesulitan untuk berjalan.
+"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.567"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
