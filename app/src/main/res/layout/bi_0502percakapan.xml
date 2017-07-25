@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/percakapan"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Percakapan"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingpercakapan"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingpercakapan2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingpercakapan"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingpercakapan2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="342dp"
+            android:layout_height="921dp"
+            android:id="@+id/percakapanj"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingpercakapan"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingpercakapan2"
+            app:layout_constraintTop_toBottomOf="@id/percakapan"
+            android:text=" Setiap kali kalian melakukan percakapan ada beberapa hal yang perlu diperhatikan,yaitu maksud dari kalimat tersebut, kalimat berdasarkan fungsinya terbaik menjadi kalimat tanya, perintah ,berita
+
+
+            1. Kalimat Perintah
+
+Kalimat perintah adalah kalimat yang bertujuan memberikan perintah kepada orang lain untuk melakukan sesuatu. Kalimat perintah biasanya diakhiri dengan tanda seru (!) dalam penulisannya. Sedangkan dalam bentuk lisan, kalimat perintah ditandai dengan intonasi tinggi.
+
+Macam-macam kalimat perintah :
+
+* Kalimat perintah biasa, ditandai dengan partikel lah.
+
+Contoh : Gantilah bajumu !
+
+2.  Kalimat Berita
+
+Kalimat berita adalah kalimat yang isinya memberitahukan sesuatu. Dalam penulisannya, biasanya diakhiri dengan tanda titik (.) dan dalam pelafalannya dilakukan dengan intonasi menurun. Kalimat ini mendorong orang untuk memberikan tanggapan.
+
+Macam-macam kalimat berita :
+
+* Kalimat berita kepastian
+
+Contoh : Nenek akan datang dari Bandung besok pagi.
+
+Kalimat Tanya
+
+Kalimat tanya adalah kalimat yang bertujuan untuk memperoleh suatu informasi atau reaksi (jawaban) yang diharapkan. Kalimat ini diakhiri dengan tanda tanya(?) dalam penulisannya dan dalam pelafalannya menggunakan intonasi menurun. Kata tanya yang dipergunakan adalah bagaimana, dimana, berapa, kapan.
+
+Contoh:
+
+–  Mengapa gedung ini dibangun tidak sesuai dengan disainnya?"
+            android:layout_marginTop="0dp"
+            app:layout_constraintHorizontal_bias="0.818"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

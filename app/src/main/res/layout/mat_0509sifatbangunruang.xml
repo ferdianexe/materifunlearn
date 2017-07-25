@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/sifatbangunruangjdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Bangun Ruang"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatbangunruang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatbangunruang2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingsifatbangunruang"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingsifatbangunruang2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/sifatbangunruangpenjelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatbangunruang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatbangunruang2"
+            app:layout_constraintTop_toBottomOf="@id/sifatbangunruangjdl"
+            android:text=" Bangun yang dibatasi oleh 6 sisi yang sama panjang disebut kubus
+bangun yang dibatasi oleh 6 sisi yang tidak sama panjang disebut balok / prisma
+bangun yang dibatasi oleh sisi lengkung dan dua lingkaran disebut tabung "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/sifatbangunruangkubus"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatbangunruang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatbangunruang2"
+            app:layout_constraintTop_toBottomOf="@id/sifatbangunruangpenjelas"
+            android:text=" Sifat-Sifat Kubus
+Memiliki 6 sisi yang ukurannya dan modelnya sama
+Memiliki 12 rusuk yang ukurannya sama
+Memiliki 8 buah sudut yang sama besar"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+        <ImageView
+            android:layout_width="138dp"
+            android:layout_height="125dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatbangunruang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatbangunruang2"
+            app:layout_constraintTop_toBottomOf="@id/sifatbangunruangkubus"
+            android:src="@drawable/kubus"
+            app:layout_constraintHorizontal_bias="0.162"
+            android:id="@+id/kubus"
+            android:layout_marginTop="19dp"
+        android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/sifatbangunruanglimas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatbangunruang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatbangunruang2"
+            app:layout_constraintTop_toBottomOf="@id/kubus"
+            android:text=" Sifat Sifat Balok
+Memiliki 4 sisi berbentuk persegi panjang
+Memiliki 2 Sisi yang bentuknya sama
+Memiliki 4 rusuk yang ukurannya sama
+Memiliki panjang lebar tinggi"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+        <ImageView
+            android:layout_width="138dp"
+            android:layout_height="125dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatbangunruang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatbangunruang2"
+            app:layout_constraintTop_toBottomOf="@id/sifatbangunruanglimas"
+            android:src="@drawable/balok"
+            app:layout_constraintHorizontal_bias="0.162"
+            android:id="@+id/balok"
+            android:layout_marginTop="19dp"
+        android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/sifatbangunruangtabung"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatbangunruang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatbangunruang2"
+            app:layout_constraintTop_toBottomOf="@id/balok"
+            android:text=" Sifat Sifat Tabung
+
+Memiliki sisi alas yang berbentuk lingkaran
+Memiliki sisi atas yang berbentuk lingkaran
+Memiliki sisi yang lengkung disebut dengan selimut"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+        <ImageView
+            android:layout_width="138dp"
+            android:layout_height="125dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatbangunruang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatbangunruang2"
+            app:layout_constraintTop_toBottomOf="@id/sifatbangunruangtabung"
+            android:src="@drawable/tabung"
+            app:layout_constraintHorizontal_bias="0.162"
+            android:id="@+id/tabung"
+            android:layout_marginTop="19dp"
+        android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/sifatbangunruangkerucut"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatbangunruang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatbangunruang2"
+            app:layout_constraintTop_toBottomOf="@id/tabung"
+            android:text=" Sifat-Sifat Kerucut
+Memiliki sisi alas yang berbentuk lingkaran
+Memiliki titik puncak atas
+Memiliki sisi selimit yang lengkung"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+        <ImageView
+            android:layout_width="138dp"
+            android:layout_height="125dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatbangunruang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatbangunruang2"
+            app:layout_constraintTop_toBottomOf="@id/sifatbangunruangkerucut"
+            android:src="@drawable/kerucut"
+            app:layout_constraintHorizontal_bias="0.162"
+            android:id="@+id/kerucut"
+            android:layout_marginTop="19dp" />
+        android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/sifatbangunruanglimassegitiga"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatbangunruang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatbangunruang2"
+            app:layout_constraintTop_toBottomOf="@id/kerucut"
+            android:text=" Alas berbentuk segitiga
+Memiliki 3 buah sis yang berbentuk segitiga
+memiliki 6 buah rusuk
+memiliki 3 rusuk yang ukurannya sama
+memiliki titik puncak atas"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+        <ImageView
+            android:layout_width="138dp"
+            android:layout_height="125dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatbangunruang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatbangunruang2"
+            app:layout_constraintTop_toBottomOf="@id/sifatbangunruanglimassegitiga"
+            android:src="@drawable/limassegitiga"
+            app:layout_constraintHorizontal_bias="0.162"
+            android:id="@+id/limassegitiga"
+            android:layout_marginTop="19dp" />
+        android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/sifatbangunruanglimassegiempat"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatbangunruang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatbangunruang2"
+            app:layout_constraintTop_toBottomOf="@id/limassegitiga"
+            android:text=" Alas berbentuk segiempat
+Memiliki 4 Buah sisi yang bernetuk segitiga
+Memiliki 8 Buah rusuk
+Mimiliki 4 buah rusuk yang ukurannya sama
+Memiliki titik puncak atas"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+        <ImageView
+            android:layout_width="138dp"
+            android:layout_height="125dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsifatbangunruang"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsifatbangunruang2"
+            app:layout_constraintTop_toBottomOf="@id/sifatbangunruanglimassegiempat"
+            android:src="@drawable/limasegiempat"
+            app:layout_constraintHorizontal_bias="0.162"
+            android:id="@+id/limassegiempat"
+            android:layout_marginTop="19dp"
+        android:layout_marginRight="8dp" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

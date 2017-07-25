@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tumbuhanjdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Tumbuhan Hijau"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingtumbuhanhejo"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingtumbuhanhejo2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingtumbuhanhejo"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingtumbuhanhejo2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="297dp"
+            android:layout_height="413dp"
+            android:id="@+id/isitumbuhanhijau"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingtumbuhanhejo"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingtumbuhanhejo2"
+            app:layout_constraintTop_toBottomOf="@id/tumbuhanjdl"
+            android:text=" Tumbuhan hijau dapat membuat makanan sendiri karena memiliki klorofil.
+Proses membuat makanan sendiri pada tumbuhan hijau dengan bantuan cahaya disebut fotosintesis.
+Fotosintesis pada umumnya terjadi pada siang hari.
+Hasil fotosintesis adalah oksigen dan karbohidrat.
+Hasil fotosintesis yang berupa karbohidrat, sebagian digunakan untuk mencukupi kebutuhan tumbuhan itu sendiri dan disimpan di umbi, biji, buah, dan batang.
+Manusia dan hewan membutuhkan tumbuhan hijau sebagai sumber makanan.
+Selain itu, manusia juga memfaatkan tumbuhan hijau untuk memenuhi kebutuhannya. Misalnya membuat meja, kursi, lemari, pakaian, dan sebagainya. "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/usahaekonomidjl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Usaha dan Ekonomi"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingusaha"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingusaha2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingusaha"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingusaha2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="294dp"
+            android:layout_height="206dp"
+            android:id="@+id/usahajelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingusaha"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingusaha2"
+            app:layout_constraintTop_toBottomOf="@id/usahaekonomidjl"
+            android:text=" Jenis-jenis usaha perekonomian yaitu: industri, agraris,. ekstra
+Jenis-jenis kegiatan ekonomi yaitu: produksi, distribusi, dan konsumsi
+Jenis-jenis pengelolaan usaha yaitu sebagai berikut.
+
+Usaha yang dikelola perseorangan.
+Usaha yang dikelola kelompok : CV, Firma, PT, Yayasan, Koperasi. "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/agrementjudul"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Agreement"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingAgreement"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingAgreement2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingAgreement"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingAgreement2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="1056dp"
+            android:id="@+id/agreementjelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingAgreement"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingAgreement2"
+            app:layout_constraintTop_toBottomOf="@id/agrementjudul"
+            android:text=" Agreement
+
+Predikat dalam Bahasa Inggris biasanya memiliki beberapa bentuk, misalnya:
+
+Singular/Plural
+e.g. is/are, has/have, reads/read
+
+atau
+
+Tense-wise(present tense, past tense, future tense)
+e.g. do, did, done
+etc.
+
+Penggunaan predikat-predikat ini harus disesuaikan dengan subjek yang ada pada kalimat.
+Jika kalimat mempunyai subjek singular (i.e. He, She, It, atau nama seseorang), pakailah predikat yang sesuai.
+e.g. John ... (go) to school everyday.
+a. go
+b. goes
+c. gone
+d. went
+
+Jawaban: B
+John adalah seorang(Singular), lalu kalimat tersebut mengandung kata 'everyday' yang berarti hal ini adalah sebuah kebiasaan(simple present tense).
+Jadi jawaban  yang tepat adalah 'goes'.
+
+Kasus Khusus
+	Kata 'some-' menunjukan jumlah 'beberapa', tetapi predikat yang digunakan adalah singular
+	e.g.	someone IS....
+		something IS.....
+	tetapi, some things ARE... karena subjek yang ditunjuk adalah 'things', yaitu sebuah subjek plural.
+
+	Penggunaan predikat dengan I(saya)
+	Predikat di dalam kalimat yang ber-subjek singular perlu ditambahkan 's' dibelakang predikatnya, seperti contohnya ''He reads....''
+	tetapi, jika digunakan dengan subjek 'I', predikat yang digunakan adalah predikat plural, kecuali to be.
+	e.g.	I am...
+		I was...
+		I go...
+		I know...
+		I have... "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.538"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
