@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/operasihitungcampuranjdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Operasi Hitung Campuran"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingohs"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingohs2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingohs"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingohs2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="295dp"
+            android:layout_height="244dp"
+            android:id="@+id/operasihitungcampuranjelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingohs"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingohs2"
+            app:layout_constraintTop_toBottomOf="@id/operasihitungcampuranjdl"
+            android:text=" Dalam mengerjakan soal dengan campuran operasi harus memerhatikan beberapa cara sebagai contoh 4500 – 30 × 50 : 3 + 250 = ....
+Kerjakan operasi perkalian terlebih dahulu 30 × 50 = 1500
+Dilanjutkan dengan operasi pembagian 1500 : 3 = 500
+Dilakukan pengurangan 4500 – 500 = 4000
+Operasi penjumlahan 4000 + 250 = 4.250"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

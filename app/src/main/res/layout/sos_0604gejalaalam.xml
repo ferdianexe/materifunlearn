@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/GejalaAlamjdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Gejala Alam"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingga"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingga2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingga"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingga2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="289dp"
+            android:id="@+id/gejalalamjelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingga"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingga2"
+            app:layout_constraintTop_toBottomOf="@id/GejalaAlamjdl"
+            android:text=" Kenampakan alam utama Indonesia berupa daratan, pantai, dataran rendah, dataran tinggi, dan perairan
+Gejala alam Indonesia dan negara-negara tetangga hampir sama, karena secara geologis sebagian besar wilayah Asia Tenggara dilalui pegunungan lipatan muda jalur Mediterania.
+Secara umum gejala alam Indonesia dan negara tetangga antara lain gempa bumi, gunung meletus, banjir, tanah longsor, kebakaran hutan, angin taufan dan sebagainya. Untuk itu diharapkan mengenal cara-cara mengatasi gejala alam tersebut. "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
