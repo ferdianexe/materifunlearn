@@ -1,6 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/pidatojdul"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Pidato"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingpidato"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingpidato2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
 
-</LinearLayout>
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingpidato"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingpidato2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/pidatojelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingpidato"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingpidato2"
+            app:layout_constraintTop_toBottomOf="@id/pidatojdul"
+            android:text=" Pidato adalah sebuah kegiatan berbicara di depan umum atau berorasi untuk menyatakan pendapatnya, atau memberikan gambaran tentang suatu hal. "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/pidatoapaaja"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingpidato"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingpidato2"
+            app:layout_constraintTop_toBottomOf="@id/pidatojelas"
+            android:text="Pidato Informasi\n
+Pidato Informasi adalah pidato yang dilakukan dengan tujuan menginformasikan, memberitahukan, atau menjelaskan sesuatu. Suasana yang serius dan tertib benar-benar dibutuhkan pada jenis pidato ini, perhatian akan dipusatkan pada pesan yang akan disampaikan. Dalam hal ini, orang yang berpidato haruslah orang yang dapat berbicara dengan jelas, sistematis, dan tepat isi agar informasi yang disampaikan benar-benar terjaga keakuratannya. Dengan demikian, pendengar akan berusaha menangkap informasi dengan sungguh-sunguh."
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/pidatoapaajapersu"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingpidato"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingpidato2"
+            app:layout_constraintTop_toBottomOf="@id/pidatoapaaja"
+            android:text="Pidato Persuasi\n
+Pidato Persuasi adalah pidato yang bertujuan menyakinkan pendengar tentang sesuatu. Pada jenis pidato ini, orang yang berpidato benar-benar dituntut memiliki keterampilan berbicara yang baik, karena bertugas untuk mengubah sikap pendengarnya dari tidak setuju menjadi setuju, dan tidak mau membantu menjadi mau membantu, dari tidak percaya menjadi percaya. Dalam pidato ini, si pembicara atau orang yang berpidato harus melandaskan isi pembicaraannya pada argumentasi yang nalar, logis, masuk akal, dan dapat dipertanggungjawabkan."
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/pidatoapaaksi"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingpidato"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingpidato2"
+            app:layout_constraintTop_toBottomOf="@id/pidatoapaajapersu"
+            android:text="Pidato Aksi\n
+Pidato Aksi adalah pidato yang bertujuan untuk menggerakkan. Pidato aksi memiliki persamaan dengan pidato persuasi. Perbedaannya pada pidato persuasi hasil yang diharapkan ditujukan pada kepentingan pribadi atau lembaga, sedangkan pidato aksi bertujuan untuk mencapai tujuan bersama. Pada pidato jenis ini, orang yang berpidato haruslah orang yang berwibawa, tokoh idola, atau panutan masyarakat yang memiliki keterampilan berbicara dan pandai membangkitkan semangat."
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/simplepastjdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Simple Past"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsimplepast"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsimplepast2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingsimplepast"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingsimplepast2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="311dp"
+            android:layout_height="366dp"
+            android:id="@+id/simplepastjelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsimplepast"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsimplepast2"
+            app:layout_constraintTop_toBottomOf="@id/simplepastjdl"
+            android:text=" (+) Subyek + V2
+(-)  Subyek + did + not + V1
+(?) Did + Subyek + V1 ?
+
+
+Digunakan untuk aktifitas yang sudah terjadi ( lampau)
+1. (+) He studied English last night.
+         (Dia belajar bahasa Inggris tadi malam)
+    (-)  He did not study English last night.
+         (Dia tidak belajar bahasa Inggris tadi malam)
+    (?) Did he study English last night?
+         (Apakah dia belajar bahasa Inggris tadi malam?)
+         Untuk kalimat tanya seperti itu jawabannya Yes,.... (ya)  atau No,.... (tidak)
+         Jawaban :
+         Yes, he did atau No, he didn't
+"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

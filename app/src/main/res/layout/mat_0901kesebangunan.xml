@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/kesebangunanjdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Kesebangunan"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingkesebangunan"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingkesebangunan2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingkesebangunan"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingkesebangunan2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="100dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingkesebangunan"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingkesebangunan2"
+            app:layout_constraintTop_toBottomOf="@id/kesebangunanjdl"
+            android:src="@drawable/kesebang"
+            app:layout_constraintHorizontal_bias="0.408"
+            android:id="@+id/gmbrpersi"
+            android:layout_marginTop="14dp"
+            tools:layout_editor_absoluteY="249dp"
+            tools:layout_editor_absoluteX="71dp" />
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="100dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingkesebangunan"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingkesebangunan2"
+            app:layout_constraintTop_toBottomOf="@id/gmbrpersi"
+            android:src="@drawable/persegikeseg"
+            app:layout_constraintHorizontal_bias="0.408"
+            android:id="@+id/penjelaspersegikes"
+            android:layout_marginTop="14dp"
+            tools:layout_editor_absoluteY="249dp"
+            tools:layout_editor_absoluteX="71dp" />
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="100dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingkesebangunan"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingkesebangunan2"
+            app:layout_constraintTop_toBottomOf="@id/penjelaspersegikes"
+            android:src="@drawable/segitigakeseg"
+            app:layout_constraintHorizontal_bias="0.408"
+            android:id="@+id/segitigakese"
+            android:layout_marginTop="14dp"
+            tools:layout_editor_absoluteY="249dp"
+            tools:layout_editor_absoluteX="71dp" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

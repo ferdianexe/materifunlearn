@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tatasuryajdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Tata Surya"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingtt"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingtt2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingtt"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingtt2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="590dp"
+            android:id="@+id/ttsurya"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingtt"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingtt2"
+            app:layout_constraintTop_toBottomOf="@id/ttsg"
+            android:text=" Merkurius.
+Merkurius merupakan planet yang paling dekat dengan matahari. Planet kedua yang terkecil. Karena letaknya paling dekat dengan matahari, planet ini juga termasuk planet yang paling terang setelah matahari. Tak mudah melihat merkurius dengan mata telanjang, harus menggunakan teropong bintang. Merkurius sering juga disebut dengan:
+Bintang senja.
+Bintang pagi.
+
+Venus
+Venus adalah planet yang terletak antara merkurius dan bumi. Venus merupakan planet putih yang bercahaya terang. Nama lain dari venus adalah:
+Bintang fajar.
+Bintang timur.
+Bintang kejora.
+
+Bumi
+Bumi adalah planet yang ktia tinggali ini , satu satunya yang memiliki kehidupan
+
+Mars
+Planet yang memiliki 2 satelit, Phobos dan Deimos
+
+Yupiter
+Planet terbesar di tata surya kita
+
+Saturnus
+Planet yang memiliki cincni
+
+Uranus
+
+Neptunus
+Planet kembaran Uranus
+"
+            android:layout_marginTop="12dp"
+            app:layout_constraintHorizontal_bias="1.0"
+            android:layout_marginRight="8dp" />
+
+        <ImageView
+            android:layout_width="263dp"
+            android:layout_height="166dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingtt"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingtt2"
+            app:layout_constraintTop_toBottomOf="@id/tatasuryajdl"
+            android:src="@drawable/tts"
+            app:layout_constraintHorizontal_bias="0.495"
+            android:id="@+id/ttsg"
+            android:layout_marginTop="5dp"
+            tools:layout_editor_absoluteY="174dp"
+            tools:layout_editor_absoluteX="48dp" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

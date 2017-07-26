@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/negaraberkemjdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Negara"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingnegara"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingnegara2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingnegara"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingnegara2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="311dp"
+            android:layout_height="204dp"
+            android:id="@+id/negarajelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingnegara"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingnegara2"
+            app:layout_constraintTop_toBottomOf="@id/negaraberkemjdl"
+            android:text=" Negara dibagi 2 yaitu negara berkembang dan negara maju
+Negara berkembang ciri cirinya adalah:\n
+Standar Hidup yang Rendah,
+Tingkat Produktivitas yang Rendah
+Tingkat Pertumbuhan Penduduk dan Beban Ketergantungan yang Tinggi
+Ketergantungan yang Tinggi thd Prod.Pertanian dan Ekspor Brg Primer
+Dominasi, Ketergantungan, dan Kerapuhan dlm Hub.Internasional"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.552"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:layout_width="314dp"
+            android:layout_height="224dp"
+            android:id="@+id/negaramajujelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingnegara"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingnegara2"
+            app:layout_constraintTop_toBottomOf="@id/negarajelas"
+            android:text=" Negara Maju memiliki ciri ciri:\n
+Standar Hidup Tinggi
+Pertumbuhan Pendapatan Lebih Cepat
+Pemerataan Pendapatan tdk ada kesenjangan
+Kemiskinan tidak mencolok
+Kesehatan yang baik
+Tingkat Pendidikan Tinggi
+Laju Pertumbuhan Penduduk Rendah
+ingkat Pengangguran Rendah"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.612"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
