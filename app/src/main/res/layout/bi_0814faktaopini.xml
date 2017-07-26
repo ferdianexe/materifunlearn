@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/fktop"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Fakta dan Opini"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingfktop"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingfktop2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingfktop"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingfktop2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="329dp"
+            android:layout_height="516dp"
+            android:id="@+id/fktjelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingfktop"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingfktop2"
+            app:layout_constraintTop_toBottomOf="@id/fktopg"
+            android:text=" Dalam teks iklan di atas terdapat informasi yang berupa fakta dan berupa opini. Dikatakan sebagai fakta apabila informasi itu berupa sesuatu yang benar-benar ada, benar-benar terjadi atau memang kenyataannya seperti itu. Selain itu kebenaran informasi yang berupa fakta tidak diragukan lagi. Fakta merupakan sesuatu yang sudah terjadi.
+Sebaliknya sesuatu dikatakan opini atau pendapat apabila informasi dalam iklan itu merupakan ide, gagasan, pendapat, pemikiran atau penawaran untuk mempengaruhi pembaca.
+
+Dalam iklan 1 dapat kita temukan fakta sebagai berikut:
+a. tipe rumah yang dijual 48/90
+b. terletak di perumahan Kota Wisata – cluster Montreal Blok YA 15 nomor 15,
+c. nomor telepon (021) 82482136, 081288731588.
+Informasi yang berupa opini adalah:
+a. menurut pemasang iklan lokasi perumahan itu bebas banjir (ide pemasang iklan untuk memengaruhi pembeli).
+b. kondisi standar dan masih bagus (ukuran standar dan bagus tidak jelas, kebenarannya perlu dibuktikan)
+c. ditawarkan dengan harga 220 juta nego (pemikiran). "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+        <ImageView
+            android:layout_width="282dp"
+            android:layout_height="138dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingfktop"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingfktop2"
+            app:layout_constraintTop_toBottomOf="@id/fktop"
+            android:src="@drawable/fktop"
+            app:layout_constraintHorizontal_bias="0.391"
+            android:id="@+id/fktopg"
+            android:layout_marginTop="5dp"
+            tools:layout_editor_absoluteY="202dp"
+            tools:layout_editor_absoluteX="17dp" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

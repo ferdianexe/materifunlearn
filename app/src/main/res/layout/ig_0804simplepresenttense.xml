@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/sptjdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Simple Present Tense"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsptjdl"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsptjdl2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingsptjdl"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingsptjdl2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="735dp"
+            android:id="@+id/rumus"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingsptjdl"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingsptjdl2"
+            app:layout_constraintTop_toBottomOf="@id/sptjdl"
+            android:text=" Affirmative/positif (+): S + to be + adj/noun/adverb
+Negative: (-): S + to be + not + adj/noun/adverb
+Interogative/Question (?): To be + S + adj/noun/adverb?
+
+
+Affirmative/positif (+):
+S + V1 + O + adv + …
+
+Negative: (-):
+S + V1 + does not/do not + O + adv + …
+
+Interogative/Question (?):
+Does/do + S +V1 + O + Adv + …
+
+1.   Aryo Yoso is a teacher.
+(-)Aryo Yoso is not a teacher.
+(?) Is Aryo Yoso a teacher? Yes, he is atau No, he is not (isn't).
+
+2.   We are sad to hear the news.
+We are not sad to hear the news.
+Are we sad to hear the news?
+
+3.   Ronaldo kicks the ball beautifully.
+Ronaldo does not kick the ball beautifully.
+Does Ronaldo kick the ball beautifully?
+
+4.   They go to Bali every year.
+They don’t go to Bali evey year.
+Do they go to Bali every year? Yes, They do atau No, they do not (don't)
+Simple Present Tense digunakan untuk
+Kebenaran Umum
+Kebiasaan Berulang
+Sesuatu yang sudah di recanakan atau terdaftar
+kegiatan yang terjadi sekarang
+"
+            android:layout_marginTop="68dp"
+            app:layout_constraintHorizontal_bias="0.629"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
