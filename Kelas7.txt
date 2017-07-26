@@ -1,0 +1,47 @@
+BI SMP 1
+1.Membuat Text Laporan 
+2.Membuat Teks Deskripsi
+3.Memahami Cerita Fantasi
+4.Membuat Teks Prosedur
+5.Membuat Puisi Rakyat
+6.Fabel
+7.Surat Pribadi dan Surat Dinas
+8.Membaca Efektif
+Inggris SMP 1
+1.Greeting And Parting
+2.Introducing Oneself
+3.Grammar : To Be , There is , There Are
+4.Expressing Gratitute And Apology
+5.Giving Commands
+6.Expressing Prohibition
+7.Adjective
+8.Asking and Giving Opinion
+9.Expressing Like and Dislike
+10.Preposition
+11.Simple Present Tense
+12.Adverb, Do and Does
+Matematika SMP 1
+1.Lambang dan Operasi Bilangan Bulat
+2.Bentuk dan operasi bilangan pecahan
+3.Operasi ALjabar
+4.Persamaan dan Pertaksamaan dua variable
+5.Perbandingan Skala, Senilai dan berbalik nilai
+6.Anggota Himpunan Dan Diagram Vern
+7.Bangun Ruang Sisi Datar
+8.Bangun Segi Empat
+9.Sifat garis pada Segitiga
+IPS SMP 1
+1.Keadaan Alam
+2.Keadaan Penduduk Indonesia
+3.Pemanfaatan Sumber Daya Alam
+4.Dinamika Interaksi Manusia
+
+IPA Smp 1
+1.Object IPA dan pengamatannya
+2.Besaran dan Pengukuran
+3.Karakteristik Zat
+4.Energi
+5.Suhu pemuaian dan Kalor
+6.Klasifikasi Benda dan MH
+7.Sistem Organisasi Kehidupan
+8.Interaksi MH dengan Lingkungan
