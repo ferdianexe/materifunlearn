@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/alamjdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Keadaan Alam Indonesia"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingalamjdl"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingalamjdl2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingalamjdl"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingalamjdl2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="319dp"
+            android:layout_height="1375dp"
+            android:id="@+id/TEXTVIEW"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingalamjdl"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingalamjdl2"
+            app:layout_constraintTop_toBottomOf="@id/alamjdl"
+            android:text=" Indonesia dikenal sebagai salah satu negara kepulauan. Ribuan pulau membentang dari Sabang sampai Merauke dengan beragam keadaan alamnya yang sangat memesona sehingga banyak bangsa lain yang tertarik untuk datang dan menikmati keadaan alam Indonesia. Rasa cinta dan bangga sebagai bangsa Indonesia dapat tumbuh jika kita mengenali keadaan alam Indonesia dan aktivitas penduduknya. Dengan mempelajari keadaan alam dan aktivitas penduduk Indonesia, maka kita dapat mensyukuri anugerah Tuhan atas keadaan alam Indonesia yang begitu luar biasa. Lalu bagaimanakah dengan letak wilayah Indonesia? Apakah letak wilayah Indonesia mempengaruhi keadaan alamnya?
+
+1. Letak Astronomis
+Secara astronomis, Indonesia terletak antara 95O BT - 141O BT dan 6O LU - 11O LS. Dengan letak astronomis tersebut, Indonesia termasuk ke dalam wilayah tropis. Wilayah tropis dibatasi oleh lintang 23,5O LU dan 23,5O LS.Letak astronomis adalah letak suatu tempat berdasarkan garis lintang dan garis bujurnya. Garis lintang adalah garis khayal yang melintang melingkari bumi. Garis bujur adalah garis khayal yang menghubungkan Kutub Utara dan Kutub Selatan. Perlu kita ketahui juga bahwa letak astronomis Indonesia relatif aman dari bencana alam angin siklon atau badai. Angin siklon terjadi di daerah lintang 10O > 20O LU/LS yang dapat menimbulkan kerugian harta benda maupun jiwa.
+
+Di Indonesia sinar matahari selalu ada sepanjang tahun dan suhu udara tidak ekstrim (tidak jauh berbeda antarmusim) sehingga masih cukup nyaman untuk melakukan berbagai kegiatan di dalam dan di luar rumah. Lama siang dan malam juga hampir sama, yaitu 12 jam siang dan 12 jam malam. Ini berbeda dengan suhu di negara-negara yang terletak pada lintang sedang dengan empat musim, yaitu musim dingin, semi, panas, dan gugur. Pada musim dingin, udara sangat dingin sampai mencapai puluhan derajat di bawah nol celsius, sehingga diperlukan penghangat ruangan.
+
+2. Letak Geografis
+Wilayah Indonesia juga berbatasan dengan sejumlah wilayah. Batasbatas wilayah Indonesia dengan wilayah lainnya adalah seperti berikut.
+Di sebelah utara, Indonesia berbatasan dengan Malaysia, Singapura, Palau, Filipina dan Laut Cina Selatan.
+Di sebelah selatan, Indonesia berbatasan dengan Timor Leste, Australia, dan Samudra Hindia.
+Di sebelah barat, Indonesia berbatasan dengan Samudra Hindia.
+Di sebelah timur, Indonesia berbatasan dengan Papua Nugini dan Samudra Pasifik.
+Kalau kita lihat, letak geografis Indonesia sangat strategis karena menjadi jalur lalu lintas perdagangan dunia antara negara-negara dari Asia Timur dengan negara-negara di Eropa, Afrika, Timur Tengah, dan India. Kapal-kapal dagang yang mengangkut berbagai komoditas dari China, Jepang, dan negara-negara lainnya melewati Indonesia menuju negara-negara tujuan di Eropa. Indonesia juga dilewati jalur perdagangan dari Asia ke arah Australia dan Selandia Baru.
+
+Dengan Letak geografis ini tentunya memberi pengaruh bagi Indonesia, baik secara sosial, ekonomi, maupun budaya. Karena menjadi jalur lalu lintas pelayaran dan perdagangan dunia, bangsa Indonesia telah lama menjalin interaksi sosial dengan bangsa lain. Interaksi sosial melalui perdagangan tersebut kemudian menjadi jalan bagi masuknya berbagai agama ke Indonesia, seperti Islam, Hindu, Buddha, Kristen, dan lain-lain. Indonesia yang kaya akan sumber daya alam menjual berbagai komoditas atau hasil bumi seperti kayu cendana, pala, lada, cengkih, dan hasil perkebunan lainnya. Sementara negara-negara lain seperti India dan Cina menjual berbagai produk barang seperti kain dan tenunan halus, porselen, dan lain-lain ke Indonesia. Manfaat letak geografis Indonesia juga memberi dampak yang merugikan. Budaya dari negara lain yang tidak selalu sesuai dengan budaya Indonesia kemudian masuk dan memengaruhi kehidupan budaya bangsa Indonesia. "
+            android:layout_marginTop="16dp"
+            app:layout_constraintHorizontal_bias="0.606"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

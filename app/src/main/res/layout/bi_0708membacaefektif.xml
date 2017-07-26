@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/bacaefektifjudl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Membaca Efektif"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingbaca"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingbaca2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingbaca"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingbaca2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="913dp"
+            android:id="@+id/bacajelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingbaca"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingbaca2"
+            app:layout_constraintTop_toBottomOf="@id/bacaefektifjudl"
+            android:text=" Membaca efektif diperlukan dengan itu kita hanya perlu mengambil data data penting saja
+Cara membaca cepat:
+
+1. Konsentrasi saat membaca.
+Konsentrasi tinggi adalah modal utama untuk memahami isi sebuah bacaan. Hal ini karena memang masih sering orang memahami bacaan tapi pikirannya tidak fokus.
+
+2. Menghilangkan kebiasaan membaca dengan bersuara dan bibir bergerak.
+Membaca dengan bersuara atau bibir bergerak memang sangat menarik dilakukan. Ini mungkin sudah menjadi kebiasaan sejak kecil karena saat latihan membaca pasti bersuara. Lain halnya untuk memahami bacaan agar maksimal maka hal itu tidak perlu dilakukan.
+
+3. Perluas jangkauan mata ketika membaca.
+Memperluas jangkauan mata saat membaca berarti saat membaca pandangan mata harus menyebar menangkap banyak kata, bukan satu kata satu kata. Meski demikian, pandangan mata yang luas harus diikuti dengan pikiran yang fokus agar pemahaman isi tetap terjaga.
+
+4. Tidak mengulang-ulang bacaan.
+Hati-hati jangan mengulang kembali bacaan yang sudah dibaca! Mengulang bacaan dapat memperlambat kecepatan membaca sekaligus membuat konsentrasi tidak terjaga dengan baik.
+
+Metode yang digunakan dalam berlatih membaca cepat adalah :
+(a) metode kosakata; metode yang berusaha untuk menambah kosakata.
+(b) metode motivasi; metode yang berusaha memotivasi pembaca (pemula) yang mengalami hambatan.
+(c) metode gerak mata; metode yang mengembangkan kecepatan membaca dengan menigkatkan kecepatan gerak mata.
+
+Hambatan-hambatan yang dapat mengurangi kecepatan mambaca :
+(a) vokalisai atau berguman ketika membaca,
+(b) membaca dengan menggerakan bibir tetapi tidak bersuara,
+(c) kepala bergerak searah tulisan yang dibaca,
+(d) subvokalisasi; suara yang biasa ikut membaca di dalam pikiran kita,
+(e) jari tangan selalu menunjuk tulisa yang sedang kit abaca,
+(f) gerakan mata kembali pada kata-kata sebelumnya.
+"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.562"
+            android:layout_marginRight="8dp" />
+
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="50dp"
+            android:id="@+id/kem"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingbaca"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingbaca2"
+            app:layout_constraintTop_toBottomOf="@id/bacajelas"
+            android:text=" Kecepatan membaca dapat dirumuskan sebagai "
+            android:layout_marginTop="12dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+        <ImageView
+            android:layout_width="279dp"
+            android:layout_height="75dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingbaca"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingbaca2"
+            app:layout_constraintTop_toBottomOf="@id/kem"
+            android:src="@drawable/bacarms"
+            app:layout_constraintHorizontal_bias="0.587"
+            android:id="@+id/imageView2"
+            android:layout_marginTop="15dp"
+            tools:layout_editor_absoluteY="1125dp"
+            tools:layout_editor_absoluteX="31dp" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

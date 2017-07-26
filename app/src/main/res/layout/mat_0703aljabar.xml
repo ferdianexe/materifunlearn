@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/operasialjabarjdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Operasi Aljabar"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingoperasialj"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingoperasialj2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingoperasialj"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingoperasialj2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="327dp"
+            android:layout_height="789dp"
+            android:id="@+id/alj"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingoperasialj"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingoperasialj2"
+            app:layout_constraintTop_toBottomOf="@id/operasialjabarjdl"
+            android:text=" Perhatikan bentuk aljabar 5x + 3y + 8x – 6y + 9. Pada bentuk aljabar tersebut, huruf x dan y disebut variabel. Variabel adalah lambang pengganti suatu bilangan yang belum diketahui nilainya dengan jelas. Variabel disebut juga peubah. Variabel biasanya dilambangkan dengan huruf kecil a, b, c, ..., z.
+
+Adapun bilangan 9 pada bentuk aljabar di atas disebut konstanta. Konstanta adalah suku dari suatu bentuk aljabar yang berupa bilangan dan tidak memuat variabel. Jika suatu bilangan a dapat diubah menjadi a = p X q dengan a, p, q bilangan bulat, maka p dan q disebut faktor-faktor dari a.
+
+Pada bentuk aljabar di atas, 5x dapat diuraikan sebagai 5x = 5 X x atau 5x = 1 X 5x. Jadi, faktor-faktor dari 5x adalah 1, 5, x, dan 5x. Adapun yang dimaksud koefisien adalah faktor konstanta dari suatu suku pada bentuk aljabar. Perhatikan koefisien masing-masing suku pada bentuk aljabar 5x + 3y + 8x – 6y + 9. Koefisien pada suku 5x adalah 5, pada suku 3y adalah 3, pada suku 8x adalah 8, dan pada suku –6y adalah –6.
+
+a) Suku adalah variabel beserta koefisiennya atau konstanta pada bentuk aljabar yang dipisahkan oleh operasi jumlah atau selisih.
+
+Suku-suku sejenis adalah suku yang memiliki variabel dan pangkat dari masing-masing variabel yang sama. Contoh: 5x dan –2x, 3a2 dan a2, y dan 4y, ...
+
+Suku tak sejenis adalah suku yang memiliki variabel dan pangkat dari masing-masing variabel yang tidak sama. Contoh: 2x dan –3x2, –y dan –x3, 5x dan –2y, ...
+
+b) Suku satu adalah bentuk aljabar yang tidak dihubungkan oleh operasi jumlah atau selisih. Contoh: 3x, 2a2, –4xy, ...
+
+c) Suku dua adalah bentuk aljabar yang dihubungkan oleh satu operasi jumlah atau selisih. Contoh: 2x + 3, a2 – 4, 3x2 – 4x, ...
+
+d) Suku tiga adalah bentuk aljabar yang dihubungkan oleh dua operasi jumlah atau selisih. Contoh: 2x2 – x + 1, 3x + y – xy, ...
+
+Bentuk aljabar yang mempunyai lebih dari dua suku disebut suku banyak.
+Penjumlahan hanya dilakukan terhadap suku sejenis
+"
+            android:layout_marginTop="0dp"
+            app:layout_constraintHorizontal_bias="0.666"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

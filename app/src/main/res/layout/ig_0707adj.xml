@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/adjjdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Adjective"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingadj"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingadj2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingadj"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingadj2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="332dp"
+            android:layout_height="468dp"
+            android:id="@+id/adjjelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingadj"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingadj2"
+            app:layout_constraintTop_toBottomOf="@id/adjjdl"
+            android:text="Adjective adalah kata yang berfungsi untuk menerangkan kata benda (noun) atau kata ganti benda (pronoun). Dengan demikian tugas adjective adalah untuk memodifikasi noun atau pronoun agar lebih spesifik dan menarik, misalnya The girl is beautiful. Keberadaan beautiful pada kalimat tersebut akan membuat lebih spesifik tentang the girl. Adjective biasanya terletak di depan kata benda atau kata ganti, namun adjective juga bisa berdiri sendiri jika menjadi pelengkap dalam sebuah kalimat, contoh:
+
+The beautiful girl.
+(perempuan yang cantik; adjective mendahului noun)
+
+The girl is beautiful.
+(perempuan itu cantik; adjective berdiri sendiri sebagai pelengkap)
+
+A beautiful smart girl.
+
+(seorang perempuan yang cantik dan pintar; dua adjective mendahului noun)
+
+Dari contoh tersebut kita dapat melihat bahwa umumnya, adjective terletak sebelum noun (1) atau setelah be (2) dan jika ada dua adjective bersamaan maka peletakannya diletakan secara berurutan sebelum noun (3). "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.578"
+            android:layout_marginRight="8dp" />
+
+
+
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/adjsatu"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingadj"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingadj2"
+            app:layout_constraintTop_toBottomOf="@id/adjjelas"
+            android:text=" Descriptive adjective (kata sifat deskriptif)
+
+Descriptive adjective adalah adjective yang menerangkan keadaan, tindakan, atau jumlah dari kata benda. Adjective ini merupakan adjective yang paling banyak jumlahnya dari beberapa jenis adjective lainya. "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+        <ImageView
+            android:layout_width="295dp"
+            android:layout_height="120dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingadj"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingadj2"
+            app:layout_constraintTop_toBottomOf="@id/adjsatu"
+            android:src="@drawable/ajdst"
+            app:layout_constraintHorizontal_bias="0.591"
+            android:id="@+id/adjjst"
+            android:layout_marginTop="15dp"
+            tools:layout_editor_absoluteY="749dp"
+            tools:layout_editor_absoluteX="27dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/adjdua"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingadj"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingadj2"
+            app:layout_constraintTop_toBottomOf="@id/adjjst"
+            android:text=" Adjective of number/quantity (kata sifat jumlah dan bilangan)
+
+Adjective of number/quantity ini menerangkan jumlah suatu benda; seberapa banyak ataupun seberapa sering. Adjective ini, umumnya diletakan sebelum kata benda, misalnya one girl, some sugar, much rice, every day, each person "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="86dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingadj"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingadj2"
+            app:layout_constraintTop_toBottomOf="@id/adjdua"
+            android:src="@drawable/adj2"
+            app:layout_constraintHorizontal_bias="0.145"
+            android:id="@+id/adjjdua"
+            android:layout_marginTop="-31dp" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
