@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/matrixjudul"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Matrix"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingmatrix"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingmatrix2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingmatrix"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingmatrix2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="227dp"
+            android:id="@+id/matrixjelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingmatrix"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingmatrix2"
+            app:layout_constraintTop_toBottomOf="@id/matrixjudul"
+            android:text=" Pengertian matriks adalah kumpulan bilangan (atau unsur) yang disusun menurut baris dan kolom tertentu. Bilangan-bilangan yang disusun tersebut dinamakan eleme-elemen atau komponen-komponen matriks. Nama sebuah matriks biasanya dinyatakan dengan huruf kapital. Dalam sebuah matriks ada istilah ordo. Yang dimaksud dengan ordo atau ukuran matriks adalah banyaknya baris x banyak kolom dalam sebuah matriks. "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+        <ImageView
+            android:layout_width="221dp"
+            android:layout_height="100dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingmatrix"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingmatrix2"
+            app:layout_constraintTop_toBottomOf="@id/matrixjelas"
+            android:src="@drawable/ordomatriks"
+            android:id="@+id/matrixg"
+            android:layout_marginTop="8dp" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="86dp"
+            android:id="@+id/matrixjleas2"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingmatrix"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingmatrix2"
+            app:layout_constraintTop_toBottomOf="@id/matrixg"
+            android:text=" Matriks A di atas terdiri dari 3 baris dan 4 kolom. Sobat bisa mengatakan matriks A berordo 3 x 4 atau bisa sobat hitung tulis A(3×4). "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,45 @@
+BI kelas 2
+1.Berkenalan
+2.Puisi
+3.Kesehatan
+4.Permainan
+5.Olahraga
+6.Kegiatan
+7.Hiburan
+8.Budi Pekerti
+
+Inggris kelas 2
+1.Colour
+2.Familiy
+3.Foods
+4.Drink
+5.Fruits
+6.Vegetable
+7.Work
+
+Matematika kelas 2
+1.Penjumlahan Pengurangan Bilangan Cacah
+2.Pengukuran
+3.Panjang dan Berat
+4.Hitung Bilangan
+5.Penjumlahan Pengurangan 2000
+6.Pengukuran Waktu
+7.Pekalian dan Pembagian
+8.Bangun Datar
+
+IPA kelas 2
+1.Bagian Tubuh Hewan dan pertumbuhan
+2.Bagian Tumbuhan dan Pertumbuhannya
+3.Tempat Hidup Hewan dan Tumbuhan
+4.Hewan menguntungkan
+5.Ciri benda padat dan cair
+6.Energi
+7.Peristiwa Alam
+
+IPS kelas 2
+1.Keluarga
+2.Memelihara Dokumen berharga
+3.Peristiwa dalam keluarga
+4.Silsilah Keluarga
+5.Peran Anggota Keluarga
+6.Kerja sama di lingkungan tetangga

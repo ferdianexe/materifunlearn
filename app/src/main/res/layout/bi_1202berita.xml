@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/beritajudul"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Berita"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingberita"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingberita2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingberita"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingberita2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="1300dp"
+            android:id="@+id/beritajuelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingberita"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingberita2"
+            app:layout_constraintTop_toBottomOf="@id/beritajudul"
+            android:text=" Pengertian Teks Berita
+Teks Berita adalah teks yang melaporkan kejadian, peristiwa atau infomasi mengenai sesuatu yang telah atau sedang terjadi. Penyampaian berita ini bisa dilakukan secara lisan yang sering kita dengar dan lihat di televisi, dan secara tulisan yang dapat kit abaca di media cetak.
+
+Struktur Teks Berita
+Ada beberapa struktur yang membangun teks berita. Stuktur teks tersebut merupakan struktur yang membangun teks sehingga menjadi satu kesatuan teks yang utuh. Struktur teks berita terdiri atas judul, teras dan tubuh berita.
+Judul
+Judul merupakan kata kunci yang mewakili keseluruhan berita. Pada teks berita, judul biasanya memuat tentang apa kejadian yang dibahas atau disampaikan. Judul dibuat semenarik mungkin sehingga pembaca tertarik untuk membaca berita tersebut.  Seperti halnya dalam teks I di atas, judul yang dipakai yaitu “Sebulan Berlalu, Air Masih Menggenangi Beberapa Lokasi di Manado” yang ketika kita baca, sangat menarik. Judul berita berfungsi menolong pembaca yang bergegas untuk cepat mengenal kejadian-kejadian yang terjadi di sekelilingnya untuk diberitakan. Judul ini merupakan bagian terpenting dari berita. Hal ini karena sebelum masuk pada isi berita, pembaca akan melihat judul berita terlebih dahulu.
+Teras
+Teras atau lead berita adalah bagian yang sangat penting dari berita. Di dalam teras berita terangkum inti dari keseluruhan isi berita. Setiap lead juga ditulis untuk menarik pembaca melihat lebih lanjut isi berita.
+Tubuh
+Bagian ini merupakan inti dari teks berita. Tubuh berita merupakan kelanjutan isi berita yang dapat memberitahukan secara lebih rinci tentang keseluruhan peristiwa atau informasi yang diberitakan.
+
+Kaidah Kebahasaan Teks Berita
+Dari sebuah teks juga dapat kita analisis kaidah kebahasannya. Dalam teks berita kaidah yang harus terpenuhi yaitu teks harus disajikan dengan informasi yang aktual dan bersifat umum. Bahasa yang diunakan harus bersifat baku atau standar bahasa Indonesia, sehingga menjembatani pemahaman banyak khalayak dari berbagai kalangan karena lebih dipahami oleh semuanya.
+Aspek kebahasaan lain yang ada dan sering muncul dalam teks berita adalah digunakannya kalimat langsung dan tidak langsung. Sebagai contoh mari kita lihat kalimat langsung dan tidak langsung dari teks berita yang berjudul “Sebulan Berlalu, Air Masih Menggenangi Beberapa Lokasi di Manado,” berikut kalimatnya.
+Kalimat langsung:
+- ''Air di sini tidak mau surut, tetap tergenang. Kalau hujan datang, air langsung masuk di dalam rumah, karena selokan tersumbat,'' ujar Yudi.
+        Kalimat tidak langsung:
+        - Menurutnya, pemerintah kota Manado tidak mencari solusi yang tepat untuk mengatasi hal itu.
+        - Menurut dia, percuma saja mereka membersihkan rumah mereka, karena air bercampur lumpur di jalan masih ada.
+
+       "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

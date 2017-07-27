@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/factualreportjdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Factual Report"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingfr"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingfr2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingfr"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingfr2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="1286dp"
+            android:id="@+id/factualreportjelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingfr"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingfr2"
+            app:layout_constraintTop_toBottomOf="@id/factualreportjdl"
+            android:text=" 1. General Classification
+
+Sebuah statemen yang mendeskripsikan secara umum atau deskripsi umum dari sesuatu yanga akan ditulis.
+
+2. Description
+
+Menceritakan tentang fenomena apa yang akan didiskusikan secara lebih khusus , contohnya bagian bagiannya, kelakuan atau habitatnya, atau secara khusus mendeskripsikan benda atau fenomena tersebut.
+
+Volcanic eruptions happen when lava and gas are discharged from a volcanic vent. The most common consequences of this are population movements as large numbers of people are often forced to flee the moving lava flow. Volcanic eruptions often cause temporary food shortages and volcanic ash landslides called Lahar.
+
+Gunung meletus terjadi ketika Lava dan udara keluar dari gunung. Akibat umum dari ini adalah perpindahan penduduk karena sebagian besar sering dipakas untuk mengungsi menghindari lava. Gunung meletus sering menyebabkan kekurang bahan pangan dan longsor magma yang disebut dengan Lahar.
+
+The most dangerous type of volcanic eruption is referred to as a 'glowing avalanche'. This is when freshly erupted magma forms hot pyroclastic flow which have temperatures of up to 1,200 degrees. The pyroclastic flow is formed from rock fragments following a volcanic explosion , the flow surges down the flanks of the volcano at speeds of up to several hundred kilometres per hour, to distances often up to 10km and occasionally as far as 40 km from the original disaster site.
+
+Hal yang paling berbahaya dari jenis gunung meletus adalah “longsoran berkilau ( magma menurun)” ini ketika magma yang baru meletus membeuntuk aliran piroklastik panas yang suhunya sampai 1200 derajat. Piroklastik ini dibentukdari bongkahan batu setelah gunung meletus. Aliran ini turun ke bawah dengan kecepatan sampairatusan kilometer perjam, sampai dengan jarak 10 km dan kadang kadang sampai 40 km dari pusat.
+
+The International Federation response adjusts to meet the needs of each specific circumstance. As population movement is often a consequence, the provision of safe areas, shelter, water, food and health supplies are primordial. In general response prioritizes temporary shelter materials; safe water and basic sanitation; food supplies; and the short term provision of basic health services and supplies.
+
+Respon dari organisasi international merespon untuk memenuhi kebutuhan masing masing peristiwa Karena pengungsian sering ditumbulkan, penyediaan wilayah yang aman, tenda tenda, air, makanan dan obat obatan adalah hal pokok. Secara garis besar priority utama masing masing tempat pengungsian adalah air dan MCK darurat, persediaan makanan, dan persediaan obat."
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/cerpenjdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Cerpen"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingcerpen"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingcerpen2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingcerpen"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingcerpen2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            app:layout_constraintHorizontal_bias="0.489"
+            android:layout_width="321dp"
+            android:layout_height="1900dp"
+            android:id="@+id/cerpenjelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingcerpen"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingcerpen2"
+            app:layout_constraintTop_toBottomOf="@id/cerpenjdl"
+            android:text=" Unsur-unsur cerpen terdiri dari dua macam, dua macam itu adalah unsur intrinsik dan ekstrinsik. Dibawah ini adalah penjelasan lengkap mengenai unsur-unsur itu.
+
+#Unsur Intrinsik Cerpen
+
+·         Tema
+Tema adalah suatu pokok masalah yang mendasari sebuah cerita (gagasan pokok dasar cerita). Tema biasanya terlihat jelas dalam cerita, namun tidak dalam keadaan langsung, yang mana pembaca itu harus menyimpulkan terlebih dahulu untuk menentukan tema dari sebuah cerita itu. Biasanya tema dirumuskan dalam bentuk sebuah kalimat pernyataan.
+·         Alur atau Plot
+Alur atau plot ialah sebuah langkah atau jalan dari sebuah cerita.Urutan cerita biasanya bisa terjalin atas urutan waktu, kejadian atau hubungan dari sebab dan akibat. Secara garis besar urutan alur atau plot yaitu perkenalan - kemudian mucul sebuah konflik atau masalah - peningkatan masalah atau konflik - puncak masalah (klimaks) - kemudian penurunan masalah atau konflik - dan yang terakhir adalah penyelesaian masalah.
+·         Penokohan atau Perwatakan
+Penokohan adalah pemberian suatu watak atau sifat (karakter) pada tokoh cerita. Pemberian sifat tersebut akan tercermin dalam fikiran, tingkah laku, ucapan atau pandangan tokoh terhadap sesuatu hal. Metode penokohan tersebut ada 2 yaitu dengan metode analitik dan metode dramatik.
+·         Metode analitik adalah metode penokohan yang dicerminkan atau dipaparkan secara langsung. seperti sadis, pemarah, keras kepala dan lain-lain.
+·         Metode dramatik adalah metode penokohan yang dicerminkan atau dipaparkan secara tidak langsung, atau pengmbaran sifat melalui penggambaran fisik, dialog antar tokoh dll.
+Penampilan tokoh juga dibagi menjadi 2 yaitu protagonis dan antagonis. Tokoh Protagonis adalah tokoh yang memerankan/memiliki watak baik, jujur, dapat dipercaya, cepat tanggap dan lain-lain (lebih jelas tokoh ini berwatak baik-baik). Jika tokoh Antagonis adalah tokoh yang memerankan/memiliki watak jelek ( pendendam, jahat, sombong dan lain-lain).
+
+
+·         Setting atau Latar
+Setting atau latar adalah tempat peristiwa,waktu dan suasana cerpen itu dilakukan. Atau lebih jelasnya latar atau setting itu terdiri dari 3 unsur yaitu :
+Latar Tempat (Berkaitan dengan dimana peristiwa dalam cerpen itu terjadi).
+Latar Waktu (Berkaitan dengan kapan peristiwa dalam cerpen terjadi).
+Latar Suasana ( Berkaitan dengan perasaan atau suasana kejadian peristiwa dalam cerpen itu terjadi).
+
+·         Sudut Pandang atau Point Of View
+Sudut pandang adalah cara bercerita atau cara pandang visi seorang pengarang pada suatu peristiwa dalam cerpen. Sudut pandang dibagi menjadi beberapa yang diantaranya yaitu, sudut pandang orang pertama atau dengan gaya bahasa 'aku' dll. sudut pandang peninjau atau orang ke-3, sudut pandang campuran (bisa orang pertama atau ketiga).
+
+Dalam sudut pandang, kata ganti orang dibagi menjadi 3 yaitu :
+Sudut pandang orang pertama, yaitu orang yang berbicara. Contohnya seperti kata aku , saya , gue (untuk tunggal), seperti kami, kita, (untuk jamak ).
+Sudut pandang orang kedua, yaitu orang yang dibicarakan. Contohnya seperti kamu, engkau (untuk tunggal ), seperti kalian ( untuk jamak )
+Sudut pandang orang ketiga, yaitu orang yang dibicarakan. Contohnya seperti ia, dia ( untuk tunggal), seperti mereka (untuk jamak).
+
+·         Amanat
+Amanat adalah sebuah pesan atau harapan seorang penulis cerita kepada pembaca agar pembaca mau bertindak atau melakukan sesuatu.
+·         Gaya Penceritaan
+Gaya penceritaan itu dapat dilihat dari segi bahasa dan nada. Dari segi bahasa, kalian bisa mencermati adakah kekhasan dari sebuah cerpen itu dalam pemilihan sebuah gaya bahasa (majas), ungkapan yang digunakan. Jika dari segi nada, kalian dapat mencermati apakah ada kesan nada yang menimbulkan rasa romantis, simpatik dan sebagainya dalam cerpen tersebut.
+
+#Unsur Ekstrinsik Cerpen
+·         Latar Belakang Masyarakat
+Pengaruh latar belakang masyarakat kepada pembuatan cerpen itu sangatlah berpengaruh, Pemahaman untuk itu bisa berupa antara lain adalah kondisi politik, idiologi negara, kondisi sosialnya, dan juga kondisi keekonomian masyarakat.
+·         Latar Belakang Seorang Pengarang
+Latar belakang pengarang itu terdiri dari, biografi pengarang tersebut bagaimana, kondisi psikologis pengarang bagaimana, serta aliran sebuah sastra yang dimiliki penulis sangatlah mempengaruhi terhadap terbentuknya sebuah cerpen "
+            android:layout_marginTop="13dp"
+
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

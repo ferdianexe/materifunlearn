@@ -1,0 +1,43 @@
+BI kelas 1 SD
+1.Diri Sendiri
+2.Keluarga
+3.Lingkungan Sekitar
+4.Hidup Sehat
+5.Kejadian Sehari Hari
+6.Hewan dan Tumbuhan
+7.Peristiwa Alam
+8.Tempat Rekreasi
+9.Pekerjaan
+10.Alamat Komunikasi
+11.Tempat Umum
+Mat kelas 1
+1.Bilangan Cacah
+2.Penjumlahan Pengurangan
+3.Pengukuran
+4.Bangun Ruang
+5.Bilangan Cacah  Dan Lambang
+6.Penjumlahan Pengurangan mahir
+7.Pengukuran Berat
+8.Bangun datar sederhana
+IPA kelas 1
+1.Tubuhku
+2.Lingkungan Sekitar
+3.Berbagai benda disekitarku
+4.Mengal berbagai bentuk energi
+5.Benda langit dan peristiwa Alam
+IPS kelas 1
+1.Identitas Diri keluarga dan sahabat
+2.Pengalaman Diri
+3.Kasih Sayang keluarga
+4.Hidup Rukun dalam kemajemukan Keluarga
+5.Perisitwa masa lalu
+6.Letak Rumah
+7.Lingkungan rumah sehat
+Inggris kelas 1
+1.Alpahbet
+2.Animals
+3.Number
+4.Colours
+5.My Body
+6.myFamiliy
+7.My houses

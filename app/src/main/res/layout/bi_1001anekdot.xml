@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/anekdotjudl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Anekdot"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandinganekdot"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandinganekdot2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandinganekdot"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandinganekdot2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="1600dp"
+            android:id="@+id/anekdotmateri"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandinganekdot"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandinganekdot2"
+            app:layout_constraintTop_toBottomOf="@id/anekdotjudl"
+            android:text=" Pengertian Anekdot
+
+Anekdot adalah cerita singkat yang menarik karena lucu dan mengesankan, biasanya mengenai orang penting dan terkenal serta berdasarkan kejadian yang sebenarnya, Namun  seiring berkembangnya zaman anekdot tidak harus berdasarkan kejadian orang penting dan isinya pun mengarah ke arah fiktif.
+
+Struktur anekdot ada 5 yaitu:
+1. Abstraksi
+abstraksi adalah bagian di awal paragraph yang berfungsi memberi gambaran tentang isi teks.
+2. Orientasi
+orientasi adalah bagian yang menunjuk awal kejadian cerita atau suasana.
+3. Krisis
+krisis adalah bagian anekdot yang menampilkan lelucon, kritik, dan sindiran, atau terjadi hal-hal yang unik.
+4. Reaksi
+reaksi adalah bagian yang berisi tanggapan atau respon.
+5. Koda
+koda adalah bagian akhir dari cerita.
+
+Kaidah dalam anekdot
+
+1. Menggunakan waktu lampau, seperti : Saya menemukannya semalam.
+2. Menggunakan pertanyaan rotoris, seperti : Apakah  kamu tahu?
+3.     Menggunakan kata sambung (konjungsi) waktu, seperti : kemudian, setelah itu, dll.
+4. Menggunakan kata kerja, seperti: pergi, tulis, dll.
+5. Menggunakan kalimat perintah
+6. Menggunakan kalimat seru
+
+Ciri khas anekdot
+
+1.            Bersifat menghibur
+2.           Mengungkapkan kebenaran yang lebih umum
+3.           Terilhami dari kejadian nyata
+4.           Bersifat sindiran alami
+
+Unsur-unsur anekdot
+
+1.   Teks atau cerita
+2.  Sindiran
+3. Lucu
+4. Tokoh atau partisipan
+5.  Singkat
+6.  Menarik
+7.  Mengesankan
+8.  Nyata
+9.  Terdapat kritikan
+
+Bentuk-bentuk anekdot
+
+1.   Prosa, yakni dalam bentuk tulisan/karangan
+2. Drama, yakni dalam bentuk dialog/monolog
+3. Puisi, yakni dalam bentuk bait.
+
+Contoh anekdot dalam bentuk puisi…
+
+Ku Tahu kota ini makmur
+Baik lingkungan dan Alamnya
+Sejak kecil hingga besar
+Ku sangat mengenal kotaku ini
+
+  Kota ini jantungnya perekonomian negara ini
+  Kota ini bagaikan rumah sakit
+  Yang buka hingga 24 jam
+  Yang tak pernah berhenti melakukan aktivitasnya
+
+Namun kini semuanya berubah
+Dulu kota ini tak seperti sekarang ini
+Jakarta berubah!
+Hingga ku tak mengenal kota ini
+
+Apakah ini kesalahan kita?
+  Apakah ini hanya mimpi semata?
+  Tentu tidak!
+  Ini benar-benar terjadi
+
+Penguasa negeri ini menguasai semuanya
+Rakyat kecil tertindas tak dapat berbuat apa-apa
+Ku berharap, suatu saat
+Akan ada pemerintah yag dapat merubah kota kita
+
+Kota Jakarta "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.552"
+            android:layout_marginRight="8dp" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/statistikajudul"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Statistika"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingstatistika"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingstatistika2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingstatistika"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingstatistika2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="313dp"
+            android:layout_height="47dp"
+            android:id="@+id/statistikajelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingstatistika"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingstatistika2"
+            app:layout_constraintTop_toBottomOf="@id/statistikajudul"
+            android:text=" Mean Media Modus"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="128dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingstatistika"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingstatistika2"
+            app:layout_constraintTop_toBottomOf="@id/statistikajelas"
+            android:src="@drawable/mean"
+            app:layout_constraintHorizontal_bias="0.285"
+            android:id="@+id/meang"
+            android:layout_marginTop="16dp" />
+        <ImageView
+            android:layout_width="173dp"
+            android:layout_height="131dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingstatistika"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingstatistika2"
+            app:layout_constraintTop_toBottomOf="@id/meang"
+            android:src="@drawable/median"
+            app:layout_constraintHorizontal_bias="0.1"
+            android:id="@+id/mediang"
+            android:layout_marginTop="8dp" />
+        <ImageView
+            android:layout_width="322dp"
+            android:layout_height="175dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingstatistika"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingstatistika2"
+            app:layout_constraintTop_toBottomOf="@id/mediang"
+            android:src="@drawable/modus"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:id="@+id/modusg"
+            android:layout_marginTop="15dp"
+            tools:layout_editor_absoluteY="417dp" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

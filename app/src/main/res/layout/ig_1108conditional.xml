@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/conditionalifjdl"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Conditional"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingconditiional"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingconditiional2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingconditiional"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingconditiional2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="309dp"
+            android:layout_height="411dp"
+            android:id="@+id/conditionaljelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingconditiional"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingconditiional2"
+            app:layout_constraintTop_toBottomOf="@id/conditionalifjdl"
+            android:text=" Conditional Sentence Type 1
+→ It is possible and also very likely that the condition will be fulfilled.
+
+Form: if + Simple Present, will-Future
+
+Example: If I find her address, I’ll send her an invitation.
+
+Conditional Sentence Type 2
+→ It is possible but very unlikely, that the condition will be fulfilled.
+
+Form: if + Simple Past, Conditional I (= would + Infinitive)
+
+Conditional Sentence Type 3
+→ It is impossible that the condition will be fulfilled because it refers to the past.
+
+Form: if + Past Perfect, Conditional II (= would + have + Past Participle)"
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

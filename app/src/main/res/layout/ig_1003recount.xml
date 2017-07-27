@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/recountjdul"
+            android:layout_width="242dp"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="Recount Text"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingNreciybt"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingNreciybt2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.494" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingNreciybt"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinebandingNreciybt2"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96" />
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="450dp"
+            android:id="@+id/recountjelas"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelinebandingNreciybt"
+            app:layout_constraintRight_toLeftOf="@+id/guidelinebandingNreciybt2"
+            app:layout_constraintTop_toBottomOf="@id/recountjdul"
+            android:text=" Generic Structure dari Recount Text
+
+Generic structure (susunan umum) recount text ini terdiri dari:
+
+Orientation tells who was involved, what happened, where the events took place, and when it happened. (''Orientation'' menceritakan siapa saja yang terlibat dalam cerita, apa yang terjadi, di mana tempat peristiwa terjadi, dan kapan terjadi peristiwanya)
+Events tell what happened and in what sequence. (''Event'' menceritakan apa yang terjadi (lagi) dan menceritakan urutan ceritanya)
+Reorientation consists of optional-closure of events/ending. (''Reorientation'' berisi penutup cerita / akhir cerita)
+
+
+Sumber : http://www.englishindo.com/2014/03/recount-text-full-materi-contoh.html#ixzz4o0opbf00 "
+            android:layout_marginTop="13dp"
+            app:layout_constraintHorizontal_bias="0.571"
+            android:layout_marginRight="8dp" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
