@@ -1,3 +1,513 @@
 <resources>
     <string name="app_name">Makan</string>
+    <string-array name="kelas1_mat_item_array">
+        <item> Menyebut </item>
+        <item> Penjumlahan dan Pengurangan </item>
+        <item> Perkenalan Bangun Ruang </item>
+        <item> Penjumlahan dan Pengurangan Mahir </item>
+        <item> Belajar Waktu </item>
+        <item> Perbandingan </item>
+        <item> Kenal Bangun Datar </item>
+    </string-array>
+
+    <string-array name="kelas1_bi_item_array">
+        <item> Diri Sendiri </item>
+        <item> Keluarga</item>
+        <item> Lingkungan Sekitar </item>
+        <item> Hidup Sehat </item>
+        <item> Kejadian Sehari Hari </item>
+        <item> Hewan dan Tumbuhan </item>
+        <item> Peristiwa Alam </item>
+        <item> Tempat Rekreasi </item>
+        <item> Pekerjaan </item>
+        <item> Alamat Komunikasi </item>
+        <item> Tempat Umum </item>
+    </string-array>
+    <string-array name="kelas1_ipa_item_array">
+        <item> Tubuhku </item>
+
+        <item> Lingkungan Sekitar </item>
+        <item> Berbagai benda disekitarku </item>
+        <item> Mengenal berbagai bentuk energi </item>
+        <item> Benda langit dan peristiwa Alam</item>
+    </string-array>
+    <string-array name="kelas1_ips_item_array">
+        <item> Identitas Diri keluarga dan sahabat</item>
+        <item> Pengalaman Diri</item>
+        <item> Kasih Sayang keluarga </item>
+        <item> Hidup Rukun dalam kemajemukan Keluarga </item>
+        <item> Perisitwa masa lalu </item>
+        <item> Letak Rumah </item>
+        <item>Lingkungan rumah sehat </item>
+    </string-array>
+    <string-array name="kelas1_inggris_item_array">
+        <item> Alpahbet</item>
+        <item> Animals</item>
+        <item> Number </item>
+        <item> Colours</item>
+        <item> My Body</item>
+        <item> myFamiliy </item>
+        <item>My houses </item>
+    </string-array>
+    <string-array name="kelas2_bi_item_array">
+        <item> Berkenalan</item>
+        <item> Puisi</item>
+        <item> Kesehatan </item>
+        <item> Permainan</item>
+        <item>Olahraga</item>
+        <item> Kegiatan </item>
+        <item>Hiburan</item>
+        <item>Budi Pekerti</item>
+    </string-array>
+    <string-array name="kelas2_inggris_item_array">
+        <item> Colour</item>
+        <item> Family</item>
+        <item> Foods </item>
+        <item> Drink</item>
+        <item>Fruits</item>
+        <item> Vegetable </item>
+        <item>Work</item>
+
+    </string-array>
+    <string-array name="kelas2_mat_item_array">
+        <item> Penjumlahan Pengurangan Bilangan Cacah</item>
+        <item> Pengukuran</item>
+        <item> Panjang dan Berat </item>
+        <item> Hitung Bilangan</item>
+        <item>Penjumlahan Pengurangan 2000</item>
+        <item> Pengukuran Waktu </item>
+        <item>Pekalian dan Pembagian</item>
+        <item>Bangun Datar</item>
+
+    </string-array>
+    <string-array name="kelas2_ipa_item_array">
+        <item> Bagian Tubuh Hewan dan pertumbuhan</item>
+        <item> Bagian Tumbuhan dan Pertumbuhannya</item>
+        <item> Tempat Hidup Hewan dan Tumbuhan </item>
+        <item> Hewan menguntungkan</item>
+        <item>Ciri benda padat dan cair</item>
+        <item> Energi </item>
+        <item>Peristiwa Alam</item>
+
+    </string-array>
+    <string-array name="kelas2_ips_item_array">
+        <item>Keluarga</item>
+        <item> Memelihara Dokumen berharga</item>
+        <item> Peristiwa dalam keluarga </item>
+        <item> Silsilah Keluarga</item>
+        <item>Peran Anggota Keluarga</item>
+        <item> Kerja sama di lingkungan tetangga </item>
+    </string-array>
+    <string-array name="kelas3_bi_item_array">
+        <item> membaca nyaring</item>
+        <item> membaca intensif</item>
+        <item> menyusun paragraf </item>
+        <item> menjelaskan membaca label obat</item>
+        <item>membaca teks(100-150)kata2000</item>
+        <item> menceritakan pengalaman </item>
+        <item>menulis karangan gambar</item>
+        <item>membaca puisi</item>
+
+    </string-array>
+    <string-array name="kelas3_inggris_item_array">
+        <item> Alphabets</item>
+        <item> Fruits</item>
+        <item> Numbers </item>
+        <item> Our Body</item>
+        <item>Animals</item>
+        <item> Park </item>
+    </string-array>
+    <string-array name="kelas3_mat_item_array">
+        <item> Garis bilangan</item>
+        <item> Alat ukur</item>
+        <item> Pecahan </item>
+        <item> Bangun Datar</item>
+        <item>Keliling dan Luas</item>
+    </string-array>
+    <string-array name="kelas3_ipa_item_array">
+        <item> Ciri Ciri MH</item>
+        <item> Perubahan pada MH</item>
+        <item> Lingkungan sehat dan tidak sehat</item>
+        <item> Sifat-Sifat benda</item>
+        <item>Perubahan sifat benda</item>
+        <item> Benda dan kegunaannnya</item>
+        <item>Gerak Benda</item>
+        <item>Energi dan sumbernya</item>
+        <item>Permukaan bumi</item>
+    </string-array>
+    <string-array name="kelas3_ips_item_array">
+        <item> Mengenal Lingkungan sekitar</item>
+        <item> Denah Lingkungan Rumah</item>
+        <item> Bekerja Sama </item>
+        <item> Jenis jenis pekerjaan</item>
+        <item>Kegiatan Jual Beli</item>
+        <item> Uang </item>
+    </string-array>
+    <string-array name="kelas4_bi_item_array">
+        <item> Ide Pokok Paragraf</item>
+        <item> Menulis Surat Pribadi</item>
+        <item> Ide Pokok teks panjang</item>
+        <item>Simbol Lambang / Gambar</item>
+        <item>Membuat Denah</item>
+        <item>Kalimat Utama Paragraf </item>
+        <item>Pengumuman dan Pantun</item>
+        <item>Membaca pengumuman</item>
+        <item>Pantun dan Penjelasannya</item>
+    </string-array>
+    <string-array name="kelas4_inggris_item_array">
+        <item> Mendengarkan dan lakukan</item>
+        <item> Berbicara</item>
+        <item> Membaca benda benda</item>
+        <item>Menulis benda dan warna</item>
+        <item>Mendengarkan</item>
+        <item>Berbicara</item>
+        <item>Membaca</item>
+        <item>Menulis</item>
+    </string-array>
+    <string-array name="kelas4_matematika_item_array">
+        <item> Sifat Operasi</item>
+        <item> Faktor dan Kelipatan</item>
+        <item> FPB dan KPK</item>
+        <item>Keliling dan Luas bangun datar</item>
+        <item>Penjumlahan Pengurangan Bilangan Bulat</item>
+        <item>Pecahan dan Soal Cerita </item>
+        <item>Lambang Romawi</item>
+        <item>Geometri</item>
+
+    </string-array>
+    <string-array name="kelas4_ipa_item_array">
+        <item> Organ Manusia</item>
+        <item> Struktur bagian tumbuhan</item>
+        <item> Hewan dengan makanannnya</item>
+        <item>Daur hidup jenis makluk hidup</item>
+        <item>Hubungan sesama makluk hidup</item>
+        <item>Perubahan Wujud Benda </item>
+        <item>Gaya dan Gerak</item>
+        <item>Energi</item>
+        <item>Bumi dan Langit</item>
+        <item>Perubahan Fisik Lingkungan</item>
+    </string-array>
+    <string-array name="kelas4_ips_item_array">
+        <item>Peta</item>
+        <item>Kenampakan Alam dilingkungan Sekitar</item>
+        <item>SDA dan Kegiatan Ekonomi</item>
+        <item>Keanekaragaman Suku Dan Budaya Setempat</item>
+        <item>Peninggalan Sejarah di Lingkungan</item>
+        <item>Sikap Pahlawan dan Patriotisme</item>
+        <item>Kegiatan Ekonomi berdasarkan Potensi Daerah</item>
+        <item>Koperasi dan Ekonomi Indonesia</item>
+        <item>Perkembangan Teknologi</item>
+        <item>Masalah Sosial di Lingkungan Setempat</item>
+    </string-array>
+    <string-array name="kelas5_bi_item_array">
+        <item>Cerita Rakyat</item>
+        <item>Percakapan</item>
+        <item>Menulis Karangan</item>
+        <item>Membaca Berita</item>
+        <item>Drama</item>
+        <item>Membaca Teks</item>
+        <item>Meringkas isi Buku</item>
+    </string-array>
+    <string-array name="kelas5_inggris_item_array">
+        <item>Mendengarkan dan lakukan</item>
+        <item>Berbicara</item>
+        <item>Membaca benda benda</item>
+        <item>Menulis benda dan warna</item>
+        <item>Mendengarkan</item>
+        <item>Berbicara</item>
+        <item>Membaca</item>
+        <item>Menulis</item>
+    </string-array>
+    <string-array name="kelas5_ipa_item_array">
+        <item>Alat pernapasan MH</item>
+        <item>Alat Penceranaan Manusia</item>
+        <item>Peredaran Darah manusia</item>
+        <item>Tumbuhan Hijau</item>
+        <item>Adaptasi Lingkungan</item>
+        <item>Benda dan Sifatnya</item>
+        <item>Gaya</item>
+        <item>Pesawat Sederhana</item>
+        <item>Cahaya dan Sifat Sifatnya</item>
+        <item>Bumi dan Alam Sekitarnya</item>
+    </string-array>
+    <string-array name="kelas5_ips_item_array">
+        <item>Mengenal Peninggalan Sejarah Masa Hindu Buddha dan Islam</item>
+        <item>Keragaman Kenampakan Alam dan Buatan di Indonesia</item>
+        <item>Keragaman Suku Bangsa dan Budaya Indonesia</item>
+        <item>Jenis Usaha dan kegiatan Ekonomi Indonesia</item>
+        <item>Perjuangan pada masa Penjajahan belanda dan Jepang</item>
+        <item>Persiapan Kemerdekaan Indonesia</item>
+        <item>Perjuangan Memproklamasikan Kemerdekaan Indonesia</item>
+        <item>Perjuangan Mempertahankan Kemerdekaan Indonesia</item>
+    </string-array>
+    <string-array name="kelas5_mat_item_array">
+        <item>Bilangan Bulat</item>
+        <item>KPK dan FPB</item>
+        <item>Operasi Hitung Campuran</item>
+        <item>Perpangkatan dan Akar</item>
+        <item>Satuan Ukuran</item>
+        <item>Bangun Datar</item>
+        <item>Volume Bangun Ruang</item>
+        <item>Operasi Hitung Pecahan</item>
+        <item>Sifat-Sifat bangun datar dan bangun Ruang</item>
+    </string-array>
+    <string-array name="kelas6_bi_item_array">
+        <item>Menyampaikan Pesan</item>
+        <item>Mengubah Puisi ke Prosa</item>
+        <item>Mendengarkan isi cerita</item>
+        <item>Memahami Cerita Anak</item>
+        <item>Menyampaikan Pesan Runtut</item>
+        <item>Menyusun Percakapan</item>
+        <item>Berpidato</item>
+        <item>Menyusun Naskah Pidato</item>
+        <item>Memahami Drama Pendek</item>
+    </string-array>
+    <string-array name="kelas6_ipa_item_array">
+        <item>Ciri Ciri MH</item>
+        <item>Perkembangan MH</item>
+        <item>Keseimbangan Ekosistem</item>
+        <item>Pelestarian MH</item>
+        <item>Benda dan Sifatnya</item>
+        <item>Perubahan Benda</item>
+        <item>Energi dan Perubahannya</item>
+        <item>Penghematan Energi</item>
+
+    </string-array>
+    <string-array name="kelas6_ips_item_array">
+        <item>Perkembangan Sistem Administrasi Wilayah Indonesia</item>
+        <item>kenampakan Alam dan keadaan sosial di Indonesia dan negara Negara tetangga</item>
+        <item>Kenampakan Alam di benua benua dunia</item>
+        <item>Gejala Alam di Indonesia dan negara tetangga</item>
+        <item>Indonesia pada era Globalisasi</item>
+        <item>Kegiatan Ekspor dan Import</item>
+    </string-array>
+    <string-array name="kelas6_mat_item_array">
+        <item>Operasi Hitung Bilangan Bulat</item>
+        <item>PENGUKURAN VOLUME PERWAKTU</item>
+        <item>MENGHITUNG LUAS</item>
+        <item>MENGUMPULKAN DAN MENGOLAH DATA</item>
+        <item>OPERASI HITUNG PECAHAN</item>
+        <item>SISTEM KOORDINAT</item>
+        <item>PENGOLAHAN DATA</item>
+    </string-array>
+    <string-array name="kelas7_bi_item_array">
+        <item>Membuat Text Laporan </item>
+        <item>Membuat Teks Deskripsi</item>
+        <item>Memahami Cerita Fantasi</item>
+        <item>Membuat Teks Prosedur</item>
+        <item>Membuat Puisi Rakyat</item>
+        <item>Fabel</item>
+        <item>Surat Pribadi dan Surat Dinas</item>
+        <item>Membaca Efektif</item>
+    </string-array>
+    <string-array name="kelas7_inggris_item_array">
+        <item>Greeting And Parting</item>
+        <item>Introducing Oneself</item>
+        <item>Grammar : To Be , There is , There Are</item>
+        <item>Expressing Gratitute And Apology</item>
+        <item>Giving Commands</item>
+        <item>Expressing Prohibition</item>
+        <item>Adjective</item>
+        <item>Asking and Giving Opinion</item>
+        <item>Preposition</item>
+        <item>Expressing Like and Dislike</item>
+        <item>Simple Present Tense</item>
+        <item>Adverb, Do and Does</item>
+    </string-array>
+    <string-array name="kelas7_mat_item_array">
+        <item>Lambang dan Operasi Bilangan Bulat</item>
+        <item>Bentuk dan operasi bilangan pecahan</item>
+        <item>Operasi ALjabar</item>
+        <item>Persamaan dan Pertaksamaan dua variable</item>
+        <item>Perbandingan Skala, Senilai dan berbalik nilai</item>
+        <item>Anggota Himpunan Dan Diagram Vern</item>
+        <item>Bangun Ruang Sisi Datar</item>
+        <item>Bangun Segi Empat</item>
+        <item>Sifat garis pada Segitiga</item>
+    </string-array>
+    <string-array name="kelas7_ipa_item_array">
+        <item>Object IPA dan pengamatannya</item>
+        <item>Besaran dan Pengukuran</item>
+        <item>Karakteristik Zat</item>
+        <item>Energi</item>
+        <item>Suhu pemuaian dan Kalor</item>
+        <item>Klasifikasi Benda dan MH</item>
+        <item>Sistem Organisasi Kehidupan</item>
+        <item>Interaksi MH dengan Lingkungan</item>
+    </string-array>
+    <string-array name="kelas7_ips_item_array">
+        <item>Keadaan Alam</item>
+        <item>Keadaan Penduduk Indonesia</item>
+        <item>Pemanfaatan Sumber Daya Alam</item>
+        <item>Dinamika Interaksi Manusia</item>
+    </string-array>
+    <string-array name="kelas8_bi_item_array">
+        <item>Membaca Cepat</item>
+        <item>Laporan</item>
+        <item>Membaca Ensklopedia</item>
+        <item>Membaca Petunjuk</item>
+        <item>Berita</item>
+        <item>Sastra</item>
+        <item>Menulis Surat Resmi</item>
+        <item>Puisi</item>
+    </string-array>
+    <string-array name="kelas8_inggris_item_array">
+        <item>Asking offering for help</item>
+        <item>Descriptive</item>
+        <item>Comparative Degree</item>
+        <item>Simple Present Tense</item>
+        <item>a and the</item>
+        <item>Recount</item>
+        <item>WH-Questions</item>
+        <item>Narrative</item>
+    </string-array>
+    <string-array name="kelas8_ipa_item_array">
+        <item>Atom Ion Molekul</item>
+        <item>Gaya dan Hukum Newton</item>
+        <item>Tekanan</item>
+        <item>Energi</item>
+        <item>Usaha</item>
+        <item>Getaran dan Bunyi</item>
+        <item>Cahaya</item>
+        <item>Alat Optik</item>
+    </string-array>
+    <string-array name="kelas8_ips_item_array">
+        <item>Kondisi Fisik Wilayah dan Penduduk Indonesia</item>
+        <item>Permasalahan Kependudukan dan Penanggulangannya</item>
+        <item>Permasalah Lingkungan Hidup</item>
+        <item>Permasalahan kependudukan</item>
+        <item>Kolonial dan Imperialisme</item>
+        <item>Pegerakan Nasional Indonesia</item>
+        <item>Penyimpangan Sosial</item>
+        <item>Hubungan Kelangkaan SDA dengan kebutuhan manusia</item>
+    </string-array>
+    <string-array name="kelas8_mat_item_array">
+        <item>Aljabar</item>
+        <item>Fungsi</item>
+        <item>Persamaan garis</item>
+        <item>SPLDV</item>
+        <item>Pythagoras</item>
+        <item>Lingkaran</item>
+        <item>Garis Singgung Lingkaran</item>
+        <item>Bangun Ruang</item>
+    </string-array>
+    <string-array name="kelas9_mat_item_array">
+        <item>Kesebangunan</item>
+        <item>Bangun Ruang sisi Lengkung</item>
+        <item>Statistika dan Peluang</item>
+        <item>Bilangan berpangkat dalam bentuk akar</item>
+        <item>Barisan dan Deret Bilangan</item>
+    </string-array>
+    <string-array name="kelas9_bi_item_array">
+        <item>Teks Eksemplum</item>
+        <item>Teks Biografi</item>
+        <item>Menulis Rangkuman Poster dan Slogan</item>
+        <item>Pengertian dan Contoh Surat Pembaca</item>
+        <item>Pengertian dan Contoh Memo</item>
+        <item>Pidato</item>
+        <item>Menulis Karya Ilmiah</item>
+        <item>Ungkapan Majas</item>
+    </string-array>
+    <string-array name="kelas9_ipa_item_array">
+        <item>Listrik Statis</item>
+        <item>Listrik Dinamis</item>
+        <item>Kemagnetan</item>
+        <item>Tata Surya</item>
+        <item>Matahari dan Bumi</item>
+        <item>Litosfer dan Atmosfer</item>
+        <item>Sistem Ekresi , Reproduksi,Koordinasi</item>
+        <item>Kelangsungan Hidup Organisme</item>
+    </string-array>
+    <string-array name="kelas9_ips_item_array">
+        <item>Negara berkembang Dan Negara Maju</item>
+        <item>PD II dan pengaruhnya</item>
+        <item>Perjuangan memertahankan Indonesia</item>
+        <item>Indonesia pasca pengakuan kedaulatan</item>
+        <item>Perubahan Sosial Budaya</item>
+        <item>Uang dan Lembaga Keuangan</item>
+        <item>Perdagangan Internasional</item>
+        <item>Peta bentuk dan pola muka bumi</item>
+    </string-array>
+    <string-array name="kelas9_inggris_item_array">
+        <item>Expressions</item>
+        <item>Genre Text</item>
+        <item>Short Functional Text</item>
+        <item>Tenses</item>
+        <item>Grammar</item>
+    </string-array>
+    <string-array name="kelas10_bi_item_array">
+        <item>Teks Anekdot</item>
+        <item>Teks Eksposisi</item>
+        <item>Teks Laporan Hasil Observasi</item>
+        <item>Teks Prosedur Kompleks</item>
+        <item>Teks Negosiasi</item>
+    </string-array>
+    <string-array name="kelas11_bi_item_array">
+        <item>Teks Cerita Pendek</item>
+        <item>Teks Pantun</item>
+        <item>Teks Cerita Ulang</item>
+        <item>Teks Eksplanasi Kompleks</item>
+        <item>Teks Film/Drama</item>
+    </string-array>
+    <string-array name="kelas12_bi_item_array">
+        <item>Teks Cerita Sejarah</item>
+        <item>Teks Berita</item>
+        <item>Teks Iklan</item>
+        <item>Teks Editorial atau Opini</item>
+        <item>Teks Penggalan Novel</item>
+    </string-array>
+    <string-array name="kelas10_mat_item_array">
+        <item>Eksponen dan Logaritma</item>
+        <item>Persamaan dan Pertidaksamaan Nilai Mutlak</item>
+        <item>Sistem Persamaan dan Pertidaksamaan Linier Dua Variabel, dan Sistem Persamaan Linier Tiga Variabel</item>
+        <item>Matriks</item>
+        <item>Relasi dan Fungsi</item>
+        <item>Barisan dan Deret</item>
+        <item>Persamaan dan Fungsi Kuadrat</item>
+        <item>Geometri</item>
+        <item>Trigonometri</item>
+        <item>Limit Fungsi Aljabar</item>
+        <item>Statistika</item>
+        <item>Peluang</item>
+    </string-array>
+    <string-array name="kelas11_mat_item_array">
+        <item>Matriks</item>
+        <item>Barisan tak Hingga</item>
+        <item>Bunga, Pertumbuhan, dan Peluruhan</item>
+        <item>Induksi Matematika</item>
+        <item>Diagonal Ruang, Diagonal bidang, Bidang diagonal</item>
+        <item>Konsep Jumlah Riemann</item>
+        <item>Teorema Fundamental Kalkulus</item>
+    </string-array>
+    <string-array name="kelas12_mat_item_array">
+        <item>Matriks</item>
+        <item>Komposisi Fungsi dan Fungsi Invers</item>
+        <item>Barisan dan Deret tak Hingga</item>
+        <item>Program Linier</item>
+    </string-array>
+    <string-array name="kelas10_inggris_item_array">
+        <item>announcement</item>
+        <item>advertisement, </item>
+        <item>undangan</item>
+        <item>recount</item>
+        <item>narative</item>
+        <item>procedure</item>
+    </string-array>
+    <string-array name="kelas11_inggris_item_array">
+        <item>Teks lisan dan tulis memberi saran dan tawaran, dan merespon</item>
+        <item>Teks  lisan dan tulis untuk menyatakan pendapat dan pikiran serta responnya</item>
+        <item>Teks  lisan dan tulis untuk menyatakan  harapan dan doa  serta responnya</item>
+        <item>Teks lisan dan tulis berbentuk undangan resmi sederhana </item>
+        <item>Teks prosedur</item>
+        <item>Passive voice</item>
+        <item>Conditional tense</item>
+    </string-array>
+    <string-array name="kelas12_inggris_item_array">
+        <item>Teks ilmiah faktual (factual report) lisan dan tulis sederhana tentang benda, binatang dan gejala/peristiwa alam</item>
+        <item>Teks eksposisi analitis</item>
+        <item>Teks biografi pendek dan sederhana tentang tokoh terkenal </item>
+        <item>Lagu</item>
+    </string-array>
+
+
 </resources>
